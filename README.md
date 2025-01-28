@@ -41,6 +41,15 @@ An ongoing & curated collection of awesome software best practices and technique
 - The bottom layer is the ‘Project’ level. **Projects** help contain GCP resources which help constitute your application/s. Projects can contain resources spread across multiple regions and geographies. Best Practice is to have one project per application per environment.
 > For eg., if you’ve 2 applications ‘A’ and ‘B’, with a development, staging and production environment, you would have 6 projects in total such as A-dev, A-stage, A-prod and B-dev, B-stage, B-prod. This segregation helps in isolating the environments from each other so that changes in one project/env do not accidentally impact other project/env and also helps provide better access control too.
 
+### 1.2 Key Components of Resource Hierarchy
+
+#### 1.3 - Organization
+#### 1.4 - Folders
+
+
+
+
+
 
 ## 2 - Implement IAM [Identity and Access Management] as the standard
 ## 3 - Custom Network and Network Security —Think and Design Early
