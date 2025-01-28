@@ -8,6 +8,13 @@ An ongoing & curated collection of awesome software best practices and technique
 ## `Table of Contents`
 - [What is ISO 21434](#)
 - [Why ISO 21434](#)
-- [What is the structure of ISO/SAE 21434:2021?](#)
+- [GCP — Cloud Security Best Practices for Enterprises](#)
 
 # GCP — Cloud Security Best Practices for Enterprises
+
+## 1 - Channelize your Resources and Structure your Resource Hierarchy
+## 2 - Implement IAM [Identity and Access Management] as the standard
+## 3 - Custom Network and Network Security —Think and Design Early
+## 4 - Securing your Applications and Data
+## 5 - Logging, Monitoring and Operations
+## 6 - Billing and Management
