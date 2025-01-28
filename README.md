@@ -22,14 +22,14 @@ An ongoing & curated collection of awesome software best practices and technique
 
 ### 1.1 - What is the Google Cloud Resource Hierarchy?
 - At its core, Google Cloud Resource Hierarchy is a structured way of organizing resources within the Google Cloud Platform (GCP). This hierarchical structure reflects relationships and dependencies, allowing for better management and control over various cloud assets. The primary components of this hierarchy include organizations, folders, projects, and individual resources.
-- 
-The Org Node aka **‘Organisation’** helps to provide central visibility and control over all the resources under that Organisation node
+
 
 <p align="center">
   <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/gcp-1.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 - Google Cloud resources are organized hierarchically.
+> The Org Node aka **‘Organisation’** helps to provide central visibility and control over all the resources under that Organisation node
 > All resources except for the highest resource in a hierarchy have exactly one parent. At the lowest level, service resources are the fundamental components that make up all Google Cloud services. Examples of service resources include Compute Engine Virtual Machines (VMs), Pub/Sub topics, Cloud Storage buckets, App Engine instances. All these lower level resources have project resources as their parents, which represent the first grouping mechanism of the Google Cloud resource hierarchy.
 
 <p align="center">
