@@ -6,9 +6,9 @@ An ongoing & curated collection of awesome software best practices and technique
 
 
 ## `Table of Contents`
-- [What is ISO 21434](#)
-- [Why ISO 21434](#)
+- [GCP Landing Zone Best Practices](#)
 - [GCP — Cloud Security Best Practices for Enterprises](#)
+- 
 
 # GCP — Cloud Security Best Practices for Enterprises
 
