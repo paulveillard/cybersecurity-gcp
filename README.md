@@ -13,6 +13,7 @@ An ongoing & curated collection of awesome software best practices and technique
 # GCP — Cloud Security Best Practices for Enterprises
 
 ## 1 - Channelize your Resources and Structure your Resource Hierarchy
+### 1.1 - What is the Google Cloud Resource Hierarchy?
 ## 2 - Implement IAM [Identity and Access Management] as the standard
 ## 3 - Custom Network and Network Security —Think and Design Early
 ## 4 - Securing your Applications and Data
