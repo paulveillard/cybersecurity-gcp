@@ -9,3 +9,5 @@ An ongoing & curated collection of awesome software best practices and technique
 - [What is ISO 21434](#)
 - [Why ISO 21434](#)
 - [What is the structure of ISO/SAE 21434:2021?](#)
+
+# GCP — Cloud Security Best Practices for Enterprises
