@@ -1,7 +1,7 @@
 # Google Cloud Platform (GCP): Theory, Testing, Techniques, and Tools
 
 
-An ongoing & curated collection of awesome software best practices and techniques, libraries and frameworks, E-books and videos, websites, blog posts, links to github Repositories, technical guidelines and important resources about ISO/SAE 21434:2021: Road vehicles — Cybersecurity engineering:  in Cybersecurity.
+An ongoing & curated collection of awesome software best practices and techniques, libraries and frameworks, E-books and videos, websites, blog posts, links to github Repositories, technical guidelines and important resources about Google Cloud Platform (GCP) in Cybersecurity.
 > Thanks to all contributors, you're awesome and wouldn't be possible without you! Our goal is to build a categorized community-driven collection of very well-known resources.
 
 
