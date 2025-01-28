@@ -42,12 +42,16 @@ An ongoing & curated collection of awesome software best practices and technique
 > For eg., if you’ve 2 applications ‘A’ and ‘B’, with a development, staging and production environment, you would have 6 projects in total such as A-dev, A-stage, A-prod and B-dev, B-stage, B-prod. This segregation helps in isolating the environments from each other so that changes in one project/env do not accidentally impact other project/env and also helps provide better access control too.
 
 ### 1.2 Key Components of Resource Hierarchy
+
+#### 1.2.1 - Organization
+
 ##### Purpose and Significance:
 ##### Characteristics and Functionality:
 ##### Creating and Managing an Organization:
 
-#### 1.3 - Organization
-#### 1.4 - Folders
+#### 1.2.2 - Organization
+#### 1.2.3 - Projects
+#### 1.2.3 - Resources
 
 
 
