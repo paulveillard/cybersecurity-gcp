@@ -8,19 +8,21 @@ An ongoing & curated collection of awesome software best practices and technique
 ## `Table of Contents`
 - [GCP Landing Zone Best Practices](#)
 - [GCP — Cloud Security Best Practices for Enterprises](#)
-  - [1 - Channelize your Resources and Structure your Resource Hierarchy](#)
+  - [1 - Build your Resources and Structure into Resource Hierarchy](#)
   - [2 - Implement IAM (Identity and Access Management) as the standard](#)
-  - [3 - Custom Network and Network Security —Think and Design Early](#)
+  - [3 - Design Custom Network and Network Security —Think and Design Early](#)
   - [4 - Securing your Applications and Data](#)
-  - [5 - Logging, Monitoring and Operations](#)
-  - [6 - Billing and Management](#)
+  - [5 - Deploy Logging, Monitoring and Operations](#)
+  - [6 - Implement Billing and Management](#)
 - 
 
 # GCP — Cloud Security Best Practices for Enterprises
 
-## 1 - Channelize your Resources and Structure your Resource Hierarchy
+## 1 - Build your Resources and Structure into Resource Hierarchy
 
 ### 1.1 - What is the Google Cloud Resource Hierarchy?
+- At its core, Google Cloud Resource Hierarchy is a structured way of organizing resources within the Google Cloud Platform (GCP). This hierarchical structure reflects relationships and dependencies, allowing for better management and control over various cloud assets. The primary components of this hierarchy include organizations, folders, projects, and individual resources.
+- 
 The Org Node aka **‘Organisation’** helps to provide central visibility and control over all the resources under that Organisation node
 
 <p align="center">
