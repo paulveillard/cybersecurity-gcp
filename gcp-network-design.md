@@ -134,6 +134,11 @@ It is good to know that there are several “non-routable” (not reachable from
   <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/network-3.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
+- A Shared VPC Admin for the organization has created a host project and attached two service projects to it:
+  - Service Project Admins in **Service project A** can be configured to access all or some of the subnets in the Shared VPC network. A Service Project Admin with at least subnet-level permissions to the 10.0.1.0/24 subnet has created Instance A in a zone of the us-west1 region. This instance receives its internal IP address, 10.0.1.3, from the 10.0.1.0/24 CIDR block.
+  - Service Project Admins in **Service project B** can be configured to access all or some of the subnets in the Shared VPC network. A Service Project Admin with at least subnet-level permissions to the 10.15.2.0/24 subnet has created Instance B in a zone of the us-east1 region. This instance receives its internal IP address, 10.15.2.4, from the 10.15.2.0/24 CIDR block.
+
+- The *Standalone Project* does not participate in the Shared VPC at all; it is neither a host nor a service project. Standalone instances are created by IAM principals who have at least the compute.InstanceAdmin role for the project.
 
 ### 6.2.5 Legacy Networks
 ### 6.2.6 Listing Networks
