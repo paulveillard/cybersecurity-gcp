@@ -259,11 +259,13 @@ VPC firewall rules control traffic coming in and out of VM instances on a networ
 
 #### 7.2.1 Adding firewall rules
 
+### Firewall Rule Elements (Components)
 
-### 7.3 Creating a custom network
+
+### 7.4 Creating a custom network
 
 
-### 7.4 Adding firewall rules
+### 7.5 Adding firewall rules
 
 
 ## VPC Network Example:
