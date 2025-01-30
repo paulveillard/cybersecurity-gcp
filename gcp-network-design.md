@@ -229,12 +229,14 @@ In general, it is recommended to set the least permissive firewall rule that wil
 
 The default network has automatically created firewall rules. No manually created network has firewall rules which are automatically created. For all networks except the default network, we must create any firewall rules we need.
 
-The ingress firewall rules which are automatically created for the default network are:
+**The ingress firewall rules which are automatically created for the default network are:**
 
-- default-allow-internal: Allows network connections of any protocol and port between instances on the network.
-- default-allow-ssh: Allows SSH connections from any source to any instance on the network over TCP port 22.
-- default-allow-rdp: Allows RDP connections from any source to any instance on the network over TCP port 3389.
-- default-allow-icmp: Allows ICMP traffic from any source to any instance on the network.
+- **default-allow-internal:** Allows network connections of any protocol and port between instances on the network.
+- **default-allow-ssh:** Allows SSH connections from any source to any instance on the network over TCP port 22.
+- **default-allow-rdp:** Allows RDP connections from any source to any instance on the network over TCP port 3389.
+- **default-allow-icmp:** Allows ICMP traffic from any source to any instance on the network.
+
+  
 
 
 ### 7.1 Virtual Firefalls
