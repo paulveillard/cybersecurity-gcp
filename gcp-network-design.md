@@ -218,7 +218,7 @@ Each instance which is created within a subnetwork gets assigned to an IPv4 addr
 
 
 
-## `Firewalls`
+## `7 - Firewalls`
 
 
 ## Creating a custom network
