@@ -171,7 +171,15 @@ VPC networks, including their associated routes and firewall rules, are global r
 
 ### 6.2.5 Types of VPC Networks
 
+Types of VPC networks are determined by their subnet creation mode:
 
+- Auto-mode VPC networks
+  - Unless you choose to disable this default, each new project is provisioned with a default auto-mode VPC network along with pre-populated firewall rules. These are built with one automatically provisioned subnet per region at creation time and automatically receive new subnets in new regions. Subnets are assigned a set of predefined IP ranges that fit within the 10.128.0.0/9 CIDR block.
+
+- Custom-mode VPC networks
+  - Give you full control over subnet configuration; you have to manually create subnets.
+
+You can switch from an auto-mode VPC network to a custom-mode VPC; the reverse conversion is not supported (this is a one-way conversion path).
 
 ### 6.2.6 VPC Specifications 
 
