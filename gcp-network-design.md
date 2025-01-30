@@ -187,6 +187,11 @@ You can switch from an auto-mode VPC network to a custom-mode VPC; the reverse c
 
 The most attractive feature of auto-mode VPC networks is the ease of setting them up. For production networks, Google recommends using custom-mode VPC networks. In the slide’s notes, you can find part of the table mapping regions to IP ranges and default gateway.
 
+<p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/regions.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
+
 #### Auto mode network:
 
 An auto mode network has one subnet per region, each with a predetermined IP range which fit within the 10.128.0.0/9 CIDR block. These subnets are created automatically when the auto mode network has created, and each subnet has the same name as the overall network. When any new GCP regions become available, new subnets for those regions are automatically added to the auto mode networks using an IP range from that block. We can add more subnets manually to auto mode networks in addition to the automatically created subnets.
