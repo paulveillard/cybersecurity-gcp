@@ -70,6 +70,30 @@ Virtual Private Cloud Network or simply network is a virtual version of a physic
 ### Subnetworks
 - Subnetworks allow us to group related resources (Compute Engine instances) into RFC1918 private address spaces. Subnetworks are regional resources. Each subnetwork defines a range of IP addresses.
 
+
+
+- A Subnetwork can be in two modes:
+   - Auto mode network
+   - Custom mode network
+
+#### Auto mode network:
+
+An auto mode network has one subnet per region, each with a predetermined IP range which fit within the 10.128.0.0/9 CIDR block. These subnets are created automatically when the auto mode network has created, and each subnet has the same name as the overall network. When any new GCP regions become available, new subnets for those regions are automatically added to the auto mode networks using an IP range from that block. We can add more subnets manually to auto mode networks in addition to the automatically created subnets.
+
+#### Custom mode network:
+
+A custom mode network has no subnets at creation giving us full control over subnet creation. In order to create an instance in a custom mode network, we must first create a subnetwork in that region and specify its IP range. A custom mode network has the possibilities of having zero, one, or many subnets per region.
+
+It is possible to switch a network from auto mode to custom mode. But this conversion is one-way, custom mode networks cannot be changed to auto mode networks.
+
+When a new project is created, a **default network** configuration provides each region with an auto mode network with pre-populated firewall rules.
+
+We can create up to four additional networks in a project. Additional networks can be either auto subnet networks or custom subnet networks.
+
+Each instance which is created within a subnetwork gets assigned to an IPv4 address from that subnetwork range.
+
+> Note: Since the default Network allows relatively open access, it is a recommended best practice that you delete it. The default Network cannot be deleted unless another Network is present. Please make sure you delete all the firewall rules for the associated VPC before deleting the VPC network.
+
 ## Firewalls
 
 
