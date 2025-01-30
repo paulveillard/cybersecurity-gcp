@@ -28,6 +28,15 @@
 </p>
 
 ## Network Service Tiers
+GCP offers two Network Service Tiers
+
+- **Standard Tier, and**
+  - The Standard Networking Tier is a lower-cost networking capability with network performance comparable to other public clouds (according to Google’s documentation)
+- **Premium Tier (the default)**
+  - The default, Premium Tier, leverages Google’s global network, which brings high throughput and reliability.
+
+
+
 
 ## A Virtual Private Cloud (VPC) Network
 Virtual Private Cloud Network or simply network is a virtual version of a physical network. In Google Cloud Networking, networks provide data connections into and out of cloud resources – mostly Compute Engine instances. 
