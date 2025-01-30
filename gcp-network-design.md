@@ -223,6 +223,19 @@ Each network has a default firewall rule that blocks all inbound traffic to inst
 - To allow traffic to an instance, we must create “allow” rules for the firewall. Also, the default firewall allows traffic from instances unless we configure it to block outbound connections using an “egress” firewall configuration (default-allow-all-egress).
 - Therefore, by default we can create “allow” rules for traffic we wish to pass ingress, and “deny” rules for traffic which we wish to restrict egress. We can also create a default-deny policy for egress and prohibit external connections entirely.
 
+In general, it is recommended to set the least permissive firewall rule that will support the kind of traffic which we are trying to pass. 
+
+> For example, if we want to allow traffic to reach some instances, but restrict traffic from reaching others, create rules that allow traffic to the intended instances only. This configuration which is more restrictive happens to be more predictable than a large firewall rule that allows traffic to all of the instances. If we want to have “deny” rules to override certain “allow” rules, we can set priority levels on each rule and the rule with the lowest numbered priority will be evaluated first. It is not recommended to create large and complex sets of override rules as it can lead to allowing or blocking traffic that is not intended.
+
+The default network has automatically created firewall rules. No manually created network has firewall rules which are automatically created. For all networks except the default network, we must create any firewall rules we need.
+
+The ingress firewall rules which are automatically created for the default network are:
+
+- default-allow-internal: Allows network connections of any protocol and port between instances on the network.
+- default-allow-ssh: Allows SSH connections from any source to any instance on the network over TCP port 22.
+- default-allow-rdp: Allows RDP connections from any source to any instance on the network over TCP port 3389.
+- default-allow-icmp: Allows ICMP traffic from any source to any instance on the network.
+
 
 ### 7.1 Virtual Firefalls
 
