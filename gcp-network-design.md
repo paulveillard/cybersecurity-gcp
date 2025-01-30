@@ -322,7 +322,7 @@ Here is an example command to create an instance which has tags.
 
 
 <p align="center">
-  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/vpc-network.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/VPC-network.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 
