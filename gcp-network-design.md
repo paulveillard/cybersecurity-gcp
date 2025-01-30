@@ -6,7 +6,16 @@
 - [VPC Main Components](#)
 - [Network Service Tiers](#)
 - [A Virtual Private Cloud (VPC) Network](#)
-- [4 - Levels of Google Cloud Networking](#)
+- [6 - Levels of Google Cloud Networking](#)
+  - 6.2.2 Network and Subnet Terminology
+  - 6.2.3 CIDR Network Notation
+  - 6.2.4 A Basic Cross-Region VPC Network
+  - 6.2.5 Legacy Networks
+  - 6.2.6 Listing Networks
+  - 6.2.5 Projects and VPC Relationship
+  - 6.2.6 VPC Specifications
+  - 6.2.5 Types of VPC Networks
+  - 6.2.6 VPC Specifications 
 - [Firewalls](#)
 - [Creating a custom network](#)
 - [Adding firewall rules](#)
