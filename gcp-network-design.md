@@ -164,7 +164,10 @@ Projects can contain multiple VPC networks unless an organizational policy prohi
 - While you can create and add more networks to your project, networks, however, cannot be shared between projects. New projects start with a default network (an auto-mode VPC network) that has one subnetwork (subnet) in each region. The default network (an auto-mode VPC network) comes with pre-populated firewall rules that you can delete or modify.
 
 ### 6.2.6 VPC Specifications 
+VPC networks, including their associated routes and firewall rules, are global resources. 
+- They are not associated with any particular region or zone. Subnets are regional resources; each subnet defines a range of its IP addresses. Traffic to and from your VM instances is controlled with network firewall rules. Firewall rules are implemented on the VMs themselves, so traffic can only be controlled and logged as it leaves or arrives at a VM. Resources within a VPC network can communicate with one another by using internal IPv4 addresses, subject to applicable network firewall rules. Instances with internal IP addresses can communicate with Google APIs and services. IAM roles can be applied when administering network resources.
 
+- Using a Shared VPC [https://cloud.google.com/vpc/docs/shared-vpc], an organization can keep a VPC network in a common host project. IAM-authorized members from other projects in the same organization are allowed to create resources that use subnets of that Shared VPC network. VPC networks from different projects or organizations can be connected to each other using VPC Network Peering. VPC networks can be securely connected in hybrid environments by using Cloud VPN or Cloud Interconnect.
 
 ### 6.2.5 Types of VPC Networks
 
