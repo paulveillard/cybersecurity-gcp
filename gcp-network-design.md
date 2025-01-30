@@ -259,8 +259,23 @@ VPC firewall rules control traffic coming in and out of VM instances on a networ
 
 #### 7.2.1 Adding firewall rules
 
-### Firewall Rule Elements (Components)
+### 7.3 Firewall Rule Elements (Components)
+Each firewall rule you create in Google Cloud consists of the following main configuration elements (called components in the Google Cloud documentation):
 
+- The direction of the connection:
+  - Inbound (ingress) rules applied to incoming connections, and
+  - Outbound (egress) rules applied to connections going to specified destinations from targets
+- An action on a matched connection:
+  - Either allow or deny the matching connection
+  - Rule status:
+    - Enable and disable (suspend the rule without deleting)
+- A target, which defines the instances (including GKE clusters and App Engine flexible environment instances) to which the rule applies
+- A source for ingress rules or a destination for egress rules
+- The connection’s protocol (tcp, udp, icmp, esp, ah, sctp, ipip) and the destination port
+
+> For more information, visit https://cloud.google.com/vpc/docs/firewalls#firewall_rule_components.
+
+> In addition to firewall rules that you create, Google Cloud has other rules that can affect incoming (ingress) or outgoing (egress) connections, for example, Google Cloud doesn’t allow certain IP protocols, such as egress traffic on TCP port 25 within a VPC network. For more information, see https://cloud.google.com/vpc/docs/firewalls#blockedtraffic
 
 ### 7.4 Creating a custom network
 
