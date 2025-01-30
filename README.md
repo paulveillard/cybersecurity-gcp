@@ -64,6 +64,22 @@ Hierarchy Root: The organization is the root of the resource hierarchy. All reso
 
 **IAM Policies:** Identity and Access Management (IAM) policies are crucial within an organization. They determine who has access to what resources and what actions they can perform. IAM policies are set at the organization level and cascade down through the hierarchy.
 
+##### 
+Reflecting Business Structure: Align the organization’s structure with the business’s organizational structure. This ensures that the resource hierarchy accurately represents the relationships and dependencies within the organization.
+
+Billing and Cost Tracking: Leverage the organization’s billing features to track and manage costs effectively. This includes setting budgets and alerts and optimizing spending across projects.
+
+The following code shows the structure of the organization’s resources:
+
+{
+  "creationTime": "2020-01-07T21:59:43.314Z",
+  "displayName": "my-organization",
+  "lifecycleState": "ACTIVE",
+  "name": "organizations/34739118321",
+  "owner": {
+    "directoryCustomerId": "C012ba234"
+  }
+}
 
 #### 1.2.2 - Folders
 #### 1.2.3 - Projects
