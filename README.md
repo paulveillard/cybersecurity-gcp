@@ -171,7 +171,16 @@ Let me simplify ‘why’ you need to consider them from the get go:
 ## `5 - Logging, Monitoring and Operations`
 Enterprises typically run multiple applications and processes and often across different platforms. Logging and Monitoring of these applications from Operations perspective is a key element which helps track the health of the applications. To help with these business needs, google cloud has Cloud Logging and Cloud Monitoring services to manage logging, monitoring, debugging, tracking, profiling and many more.
 
-General tendency I’ve noticed during my assessments is that the business users are unaware these services and their benefits. In this blog, I’ll try to highlight ‘why’ it is beneficial to make use of these services to the best possible
+General tendency I’ve noticed during my assessments is that the business users are unaware these services and their benefits. In this blog, I’ll try to highlight ‘why’ it is beneficial to make use of these services to the best possible.
+
+- Enable logging for any historical analysis and monitoring purposes which helps to track the health of the applications and GCP resources regularly. It is a good practice to set up a separate Monitoring Project for the Production folder and export the logging through applicable log sink/s. Do keep a note that logging retains app and audit logs for a limited period of time. In case if you want to retain logs for longer duration to meet compliance regulations, utilise other GCP services to fit your purpose.
+  
+- Setup required Alerts through notification channels to help act on the alerts as needed
+The centralised logging location must be highly secured with access to only privileged members and a SIEM to monitor these logs regularly. Secure mechanisms help prevent log manipulation which could cover up malicious activity or attacks and SIEM could monitor and alert for.
+
+- Use Security Command Center [SCC] and Security Scanner [SS] as both of these products enable to monitor and track the security vulnerabilities in the applications continuously through a single plain of glass to help mitigate and handle them aggressively. The SCC provides a centralised vulnerability and threat reporting service to help strengthen the security posture of the GCP infrastructure whereas SS identifies the security vulnerabilities in the applications.
+
+- To increate agility and reduce time-to-market for applications and features, break silos between different teams such as development, operations, security and networking team and build the DevOps culture and use the Tools where necessary to achieve it collaboratively.
 
 
 ## `6 - Billing and Management`
