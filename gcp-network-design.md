@@ -59,7 +59,7 @@ Virtual Private Cloud Network or simply network is a virtual version of a physic
 
 
 
-## Levels of Google Cloud Networking
+## `Levels of Google Cloud Networking`
 
 ### Projects
 - Projects are known to be the outermost container and are used to group resources that share the same trust boundaries. A lot of developers map Projects to teams since every Project has its own access policy (IAM) and member list. Projects serve as a collector of billing and quota details reflecting resource consumption as well. Projects comprise of Networks which contain Subnetworks, Firewall rules, and Routes.
@@ -94,7 +94,7 @@ Each instance which is created within a subnetwork gets assigned to an IPv4 addr
 
 > Note: Since the default Network allows relatively open access, it is a recommended best practice that you delete it. The default Network cannot be deleted unless another Network is present. Please make sure you delete all the firewall rules for the associated VPC before deleting the VPC network.
 
-## Firewalls
+## `Firewalls`
 
 
 ## Creating a custom network
