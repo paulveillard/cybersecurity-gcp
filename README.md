@@ -100,6 +100,10 @@ The following code shows the structure of the organization’s resources:
 ## 2 - Implement IAM [Identity and Access Management] as the standard
 In a nut shell, most common issues found are like using ‘individual’ accounts instead of ‘groups’ to grant access to specific Google Cloud resources and fully ignoring the basic security principle of ‘least privilege’
 
+ <p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/iam-1.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
 To avoid this, follow the recommended IAM best practices such as:
 
 Always use fully managed google accounts which are tied to your corporate domain name through Cloud Identity. This forms a management layer through which enabling or disabling the access to your google cloud resources is easily possible
