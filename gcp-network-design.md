@@ -280,9 +280,55 @@ Each firewall rule you create in Google Cloud consists of the following main con
 ### 7.4 Creating a custom network
 
 
-## VPC Network Example:
+
 
 ### 7.5 Adding firewall rules
+
+To allow access to VM instances, we must apply firewall rules. We can use the instance tag to apply firewall rule to the VM instances. The firewall rule will apply to any VM using the same instance tag.
+
+Instance Tags are used by networks and firewalls to apply certain firewall rules to tagged VM instances. For example, if there are several instances that perform the same task, such as serving a large website, we can tag these instances with a shared word or term and then use that tag to allow HTTP access to those instances with a firewall rule. Tags are also reflected in the metadata server, so we can use them for applications running on our instances.
+
+Firewall rules can be created using either a console or cloud shell. Here we will create using cloud shell.
+
+The following command will create a firewall rule to allow HTTP internet requests.
+
+
+ ```
+gcloud compute firewall-rules create allow-http \
+
+ --allow tcp:80 --network custom-network \ 
+
+--source-ranges 0.0.0.0/0 \ 
+
+--target-tags http
+
+ ```
+
+The above command will create a firewall-rule which will allow HTTP internet requests to those instances which have the tag http because we are using the flag –target-tags.
+
+Here is an example command to create an instance which has tags.
+
+ ```
+ gcloud compute instances create us-test-01 \
+
+ --subnet subnet-us-central \ 
+
+--zone us-central1-a \ 
+
+--tags http
+ ```
+
+##### VPC Network Example:
+
+
+> In the above example:
+> 
+- subnet1 is defined as 10.240.0.0/24 in us-west1 region. There are 2 VM instances in the us-west1-a zone in this subnet and their IP addresses are from the available range of addresses in subnet1.
+
+- Subnet2 is defined as 192.168.1.0/24 in the us-east1 region. There are 2 VM instances in the us-east1-a zone in this subnet and their IP addresses are from the available range of addresses in subnet1.
+
+- Subnet3 (mistakenly mentioned as subnet1 in the diagram) is defined as 10.2.0.0/16, in the us-east1 region. There is one VM instance in the us-east1-a zone and the second instance in us-east1-b zone in subnet3, each receiving an IP address from its available range. Because subnets are regional resources, instances can have their network interfaces associated with any subnet in the same region that contains their zones.
+
 
 #### 7.5.1  Ingress (Inbound) Firewall Rules
 
