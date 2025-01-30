@@ -58,8 +58,11 @@ Hierarchy Root: The organization is the root of the resource hierarchy. All reso
 **Management and Permission:** It facilitates centralized management, allowing administrators to set permissions and policies that apply across the entire organization. This includes access control and defining roles for users and groups.
 
 **Resource Aggregation:** Resources within an organization can span multiple projects and folders. This aggregation makes it easier to manage and oversee resources at scale.
-##### Creating and Managing an Organization:
 
+##### Creating and Managing an Organization:
+**Google Cloud Console:** Organizations are typically created and managed through the Google Cloud Console. The console provides a user-friendly interface for administrators to configure organizational settings, manage billing, and set policies.
+
+**IAM Policies:** Identity and Access Management (IAM) policies are crucial within an organization. They determine who has access to what resources and what actions they can perform. IAM policies are set at the organization level and cascade down through the hierarchy.
 
 
 #### 1.2.2 - Folders
