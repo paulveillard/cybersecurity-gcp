@@ -18,6 +18,12 @@ An ongoing & curated collection of awesome software best practices and technique
 
 # `GCP — Cloud Security Best Practices for Enterprises`
 
+<p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/gcp-original.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
+
+
 ## `1 - Build your Resources and Structure into Resource Hierarchy`
 
 ### `1.1 - What is the Google Cloud Resource Hierarchy?`
