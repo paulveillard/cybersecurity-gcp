@@ -245,13 +245,13 @@ We can review the default firewall rules using the console through this path: Na
 
 > GCP Firewalls are stateful: for each initiated connection tracked by allowing rules in one direction, the return traffic is automatically allowed, regardless of any rules.
 
-### 7.1 Virtual Firefalls
+### `7.1 Virtual Firefalls`
 
 VPC firewall rules control traffic coming in and out of VM instances on a network. The default network once provisioned, has a default set of firewall rules; you can create custom rules if more detailed network resource protection is needed. 
 - Firewall rules are defined at the VPC network level. Using firewall rules configurations, you can dis/allow connections to or from instances. Connections are allowed or denied on a per-instance basis.
 - VPC firewall rules can, essentially, control traffic between individual instances within the same network.
 
-### 7.2 Firewall Rules
+### `7.2 Firewall Rules`
 
 - To create a VPC firewall rule, you need to specify the target VPC network along with the elements that define what the rule does.
 - These elements lend you control over:
@@ -259,7 +259,7 @@ VPC firewall rules control traffic coming in and out of VM instances on a networ
 
 #### 7.2.1 Adding firewall rules
 
-### 7.3 Firewall Rule Elements (Components)
+### `7.3 Firewall Rule Elements (Components)`
 Each firewall rule you create in Google Cloud consists of the following main configuration elements (called components in the Google Cloud documentation):
 
 - The direction of the connection:
@@ -277,12 +277,12 @@ Each firewall rule you create in Google Cloud consists of the following main con
 
 > In addition to firewall rules that you create, Google Cloud has other rules that can affect incoming (ingress) or outgoing (egress) connections, for example, Google Cloud doesn’t allow certain IP protocols, such as egress traffic on TCP port 25 within a VPC network. For more information, see https://cloud.google.com/vpc/docs/firewalls#blockedtraffic
 
-### 7.4 Creating a custom network
+### `7.4 Creating a custom network`
 
 
 
 
-### 7.5 Adding firewall rules
+### `7.5 Adding firewall rules`
 
 To allow access to VM instances, we must apply firewall rules. We can use the instance tag to apply firewall rule to the VM instances. The firewall rule will apply to any VM using the same instance tag.
 
