@@ -169,4 +169,9 @@ Let me simplify ‘why’ you need to consider them from the get go:
 
 
 ## `5 - Logging, Monitoring and Operations`
+Enterprises typically run multiple applications and processes and often across different platforms. Logging and Monitoring of these applications from Operations perspective is a key element which helps track the health of the applications. To help with these business needs, google cloud has Cloud Logging and Cloud Monitoring services to manage logging, monitoring, debugging, tracking, profiling and many more.
+
+General tendency I’ve noticed during my assessments is that the business users are unaware these services and their benefits. In this blog, I’ll try to highlight ‘why’ it is beneficial to make use of these services to the best possible
+
+
 ## `6 - Billing and Management`
