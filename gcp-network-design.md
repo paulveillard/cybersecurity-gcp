@@ -127,6 +127,12 @@ It is good to know that there are several “non-routable” (not reachable from
 
 
 ### 6.2.4 A Basic Cross-Region VPC Network
+
+Example of  A host project with a Shared VPC network provides internal connectivity for two service projects, while a standalone project doesn't use Shared VPC (click to enlarge).
+
+
+
+
 ### 6.2.5 Legacy Networks
 ### 6.2.6 Listing Networks
 ### 6.2.5 Projects and VPC Relationship
