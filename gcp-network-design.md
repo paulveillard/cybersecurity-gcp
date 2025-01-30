@@ -103,10 +103,14 @@ Google network documentation uses the CIDR network notation.
 
 > Classless Inter-Domain Routing (CIDR) is a method for allocating IP addresses and for IP routing. CIDR notation gives a compact representation of an IP address along with its associated network mask using this form:
 
- ` ` `
+ ```
  <IP_address>/<width (in bits) of the network prefix> 
 
- ` ` `
+  ```
+
+ ```
+
+ ```
 
 ### 6.2.4 A Basic Cross-Region VPC Network
 ### 6.2.5 Legacy Networks
