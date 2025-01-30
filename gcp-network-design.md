@@ -39,6 +39,19 @@ GCP offers two Network Service Tiers
 
 
 ## `A Virtual Private Cloud (VPC) Network`
+A **Virtual Private Cloud (VPC) network** is a virtualized layer on top of the physical network used by Google Cloud. 
+
+- A VPC provides the following services:
+  - Network connectivity services for your
+    - Compute Engine VM instances,
+      - Your VM instance can have more than one interface, each interface, however, must be connected to a different network
+    - Google Kubernetes Engine (GKE) clusters,
+    - App Engine flexible environment instances, and
+    - Other Google Cloud products built with Compute Engine VMs
+  - Native Internal TCP/UDP Load Balancing and proxy systems for Internal HTTP(S) Load Balancing
+  - Connectivity to on-prem networks using Cloud VPN tunnels and Cloud Interconnect attachments
+
+
 Virtual Private Cloud Network or simply network is a virtual version of a physical network. In Google Cloud Networking, networks provide data connections into and out of cloud resources – mostly Compute Engine instances. 
 > Securing the Networks is critical to securing the data and controlling access to the resources.
 
