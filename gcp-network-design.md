@@ -107,11 +107,15 @@ Google network documentation uses the CIDR network notation.
  <IP_address>/<width (in bits) of the network prefix> 
 
   ```
+For example,
 
  ```
 192.168.100.14/24 
 represents the IPv4 address 192.168.100.14 and its subnet 24-bit mask 255.255.255.0
  ```
+
+
+
 
 ### 6.2.4 A Basic Cross-Region VPC Network
 ### 6.2.5 Legacy Networks
