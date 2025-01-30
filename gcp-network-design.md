@@ -147,7 +147,7 @@ Currently used Google Cloud VPC networks offer users more advanced features comp
 
 - One limitation with legacy networks is that it is not possible to create regional subnets in a legacy network
 
-### 6.2.6 Listing Networks
+### 6.2.6 Listing Networks & Viewing Network Details
 
 A fast way to view the VPC (and legacy, if any) networks in your project is to use the gcloud compute networks list command. VPC networks will list their subnet modes; legacy networks will be marked with the LEGACY subnet creation mode.
 
@@ -155,8 +155,13 @@ A fast way to view the VPC (and legacy, if any) networks in your project is to u
   <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/listnet.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
+ ```
+gcloud compute networks describe <NETWORK>
+ ```
 
 ### 6.2.5 Projects and VPC Relationship
+
+
 ### 6.2.6 VPC Specifications 
 ### 6.2.5 Types of VPC Networks
 ### 6.2.6 VPC Specifications 
