@@ -280,10 +280,18 @@ Each firewall rule you create in Google Cloud consists of the following main con
 ### 7.4 Creating a custom network
 
 
+## VPC Network Example:
+
 ### 7.5 Adding firewall rules
 
+#### 7.5.1  Ingress (Inbound) Firewall Rules
 
-## VPC Network Example:
+#### 7.5.2 Egress (Outbound) Rules
+
+#### 7.5.3 Authoring Firewall Rules
+
+
+
 
 
 References:
