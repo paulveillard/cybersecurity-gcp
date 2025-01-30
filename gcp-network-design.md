@@ -237,7 +237,13 @@ The default network has automatically created firewall rules. No manually create
 - **default-allow-icmp:** Allows ICMP traffic from any source to any instance on the network.
 
   
+**We cannot SSH into an instance without allowing SSH firewall rule.**
 
+Each and every rule of firewall has a Priority value from 0-65535 which is inclusive. Relative priority values are used to determine the precedence of conflicting rules. Lower priority value implies higher precedence. When not specified, 1000 is used as a priority value. If a packet is matching with the conflicting rules with the same priority, the deny policy takes precedence.
+
+We can review the default firewall rules using the console through this path: Navigation menu > VPC networks > Firewall rules.
+
+> GCP Firewalls are stateful: for each initiated connection tracked by allowing rules in one direction, the return traffic is automatically allowed, regardless of any rules.
 
 ### 7.1 Virtual Firefalls
 
