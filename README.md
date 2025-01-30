@@ -55,9 +55,9 @@ An ongoing & curated collection of awesome software best practices and technique
 ##### Characteristics and Functionality:
 Hierarchy Root: The organization is the root of the resource hierarchy. All resources and projects within the Google Cloud Platform are organized under an organization.
 
-Management and Permission: It facilitates centralized management, allowing administrators to set permissions and policies that apply across the entire organization. This includes access control and defining roles for users and groups.
+**Management and Permission:** It facilitates centralized management, allowing administrators to set permissions and policies that apply across the entire organization. This includes access control and defining roles for users and groups.
 
-Resource Aggregation: Resources within an organization can span multiple projects and folders. This aggregation makes it easier to manage and oversee resources at scale.
+**Resource Aggregation:** Resources within an organization can span multiple projects and folders. This aggregation makes it easier to manage and oversee resources at scale.
 ##### Creating and Managing an Organization:
 
 
