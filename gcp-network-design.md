@@ -247,7 +247,15 @@ We can review the default firewall rules using the console through this path: Na
 
 ### 7.1 Virtual Firefalls
 
+VPC firewall rules control traffic coming in and out of VM instances on a network. The default network once provisioned, has a default set of firewall rules; you can create custom rules if more detailed network resource protection is needed. 
+- Firewall rules are defined at the VPC network level. Using firewall rules configurations, you can dis/allow connections to or from instances. Connections are allowed or denied on a per-instance basis.
+- VPC firewall rules can, essentially, control traffic between individual instances within the same network.
+
 ### 7.2 Firewall Rules
+
+- To create a VPC firewall rule, you need to specify the target VPC network along with the elements that define what the rule does.
+- These elements lend you control over:
+  - Traffic protocols, source and destination ports, etc.
 
 #### 7.2.1 Adding firewall rules
 
