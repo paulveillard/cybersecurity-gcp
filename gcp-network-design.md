@@ -191,7 +191,11 @@ The most attractive feature of auto-mode VPC networks is the ease of setting the
 
 An auto mode network has one subnet per region, each with a predetermined IP range which fit within the 10.128.0.0/9 CIDR block. These subnets are created automatically when the auto mode network has created, and each subnet has the same name as the overall network. When any new GCP regions become available, new subnets for those regions are automatically added to the auto mode networks using an IP range from that block. We can add more subnets manually to auto mode networks in addition to the automatically created subnets.
 
-### 6.2.6 Considerations for Custom-mode VPC Networks
+### 6.2.7 Considerations for Custom-mode VPC Networks
+Custom-mode VPC networks are more flexible than auto-mode ones and offer the following benefits:
+
+- This mode will support your plans to connect VPC networks through VPC Network Peering or Cloud VPN.
+  - This is not possible with auto-mode networks since the subnets of every auto-mode VPC network use the same predefined range of IP addresses (the 10.128.0.0/9 CIDR block) — in other words, you cannot connect auto-mode VPC networks to one another
 
 #### Custom mode network:
 
