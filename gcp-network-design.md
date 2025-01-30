@@ -6,7 +6,7 @@
 - [VPC Main Components](#)
 - [Network Service Tiers](#)
 - [A Virtual Private Cloud (VPC) Network](#)
-- [Levels of Google Cloud Networking](#)
+- [4 - Levels of Google Cloud Networking](#)
 - [Firewalls](#)
 - [Creating a custom network](#)
 - [Adding firewall rules](#)
@@ -22,12 +22,12 @@
   <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/network-1.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-## `VPC Main Components`
+## `3 - VPC Main Components`
 <p align="center">
   <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/network-2.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-## `Network Service Tiers`
+## `4 - Network Service Tiers`
 GCP offers two Network Service Tiers
 
 - **Standard Tier, and**
@@ -38,7 +38,7 @@ GCP offers two Network Service Tiers
 
 
 
-## `3 - A Virtual Private Cloud (VPC) Network`
+## `5 - A Virtual Private Cloud (VPC) Network`
 A **Virtual Private Cloud (VPC) network** is a virtualized layer on top of the physical network used by Google Cloud. 
 
 - A VPC provides the following services:
@@ -59,15 +59,15 @@ Virtual Private Cloud Network or simply network is a virtual version of a physic
 
 
 
-## `4 - Levels of Google Cloud Networking`
+## `6 - Levels of Google Cloud Networking`
 
-### 4.1 Projects
+### 6.1 Projects
 - Projects are known to be the outermost container and are used to group resources that share the same trust boundaries. A lot of developers map Projects to teams since every Project has its own access policy (IAM) and member list. Projects serve as a collector of billing and quota details reflecting resource consumption as well. Projects comprise of Networks which contain Subnetworks, Firewall rules, and Routes.
 
-### 4.2 Networks
+### 6.2 Networks
 - Networks directly connect our resources to each other and to the outside world. Networks which use Firewalls house the access policies for incoming and outgoing connections as well. Networks could be Global – which offers horizontal scalability across multiple Regions or Regional – which low-latency within a single Region. Virtual Private Cloud networks consist of one or more IP range partitions called subnetworks or subnets. Each subnet or subnetwork is associated with a region. VPC networks do not have any IP ranges associated with them. IP ranges are defined for the subnetworks. A network must have at least one subnet then only we can use it.
 
-### 4.2.1 Subnetworks
+### 6.2.1 Subnetworks
 - Subnetworks allow us to group related resources (Compute Engine instances) into RFC1918 private address spaces. Subnetworks are regional resources. Each subnetwork defines a range of IP addresses.
 
 <p align="center">
@@ -81,15 +81,15 @@ Virtual Private Cloud Network or simply network is a virtual version of a physic
 
 
 
-### 4.2.2 Network and Subnet Terminology
-### 4.2.3 CIDR Network Notation
-### 4.2.4 A Basic Cross-Region VPC Network
-### 4.2.5 Legacy Networks
-### 4.2.6 Listing Networks
-### 4.2.5 Projects and VPC Relationship
-### 4.2.6 VPC Specifications 
-### 4.2.5 Types of VPC Networks
-### 4.2.6 VPC Specifications 
+### 6.2.2 Network and Subnet Terminology
+### 6.2.3 CIDR Network Notation
+### 6.2.4 A Basic Cross-Region VPC Network
+### 6.2.5 Legacy Networks
+### 6.2.6 Listing Networks
+### 6.2.5 Projects and VPC Relationship
+### 6.2.6 VPC Specifications 
+### 6.2.5 Types of VPC Networks
+### 6.2.6 VPC Specifications 
 
 ### 4.2.5 Considerations for Auto-mode VPC Networks
 
