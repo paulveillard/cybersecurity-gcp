@@ -3,6 +3,9 @@
 # Table of Contents
 - [GCP Virtual Networking]
 - [GCP Networking Services and Components at a Glance]
+- [VPC Main Components]
+- [Network Service Tiers]
+- [A Virtual Private Cloud (VPC) Network]
 - [Levels of Google Cloud Networking](#)
 - [Firewalls](#)
 - [Creating a custom network](#)
@@ -10,6 +13,9 @@
 - [VPC Network Example:](#)
 
 
+## VPC Main Components
+
+## Network Service Tiers
 
 ## A Virtual Private Cloud (VPC) Network
 Virtual Private Cloud Network or simply network is a virtual version of a physical network. In Google Cloud Networking, networks provide data connections into and out of cloud resources – mostly Compute Engine instances. 
