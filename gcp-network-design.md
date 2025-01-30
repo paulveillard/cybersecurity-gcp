@@ -219,6 +219,10 @@ Each instance which is created within a subnetwork gets assigned to an IPv4 addr
 
 
 ## `7 - Firewalls`
+Each network has a default firewall rule that blocks all inbound traffic to instances (default-deny-all-ingress). 
+- To allow traffic to an instance, we must create “allow” rules for the firewall. Also, the default firewall allows traffic from instances unless we configure it to block outbound connections using an “egress” firewall configuration (default-allow-all-egress).
+- Therefore, by default we can create “allow” rules for traffic we wish to pass ingress, and “deny” rules for traffic which we wish to restrict egress. We can also create a default-deny policy for egress and prohibit external connections entirely.
+
 
 ### 7.1 Virtual Firefalls
 
