@@ -124,7 +124,7 @@ To be frank, the issues I noticed under this section are like eye-openers as I c
 You know what — People are using ‘Default’ Networks. Just not that but also ‘Default’ firewall rules which are unbelievably true from my perspective. You cannot start worse than this ;>(
 
 <p align="center">
-  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/gcp-original.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/network-1.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 Let me simplify the bare minimum things to start considering from the beginning
