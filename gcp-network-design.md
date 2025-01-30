@@ -128,7 +128,7 @@ It is good to know that there are several “non-routable” (not reachable from
 
 ### 6.2.4 A Basic Cross-Region VPC Network
 
-Example of  A host project with a Shared VPC network provides internal connectivity for two service projects, while a standalone project doesn't use Shared VPC (click to enlarge).
+[GCP Example](https://cloud.google.com/vpc/docs/shared-vpc?hl=en#shared_vpc_overview) of A host project with a Shared VPC network provides internal connectivity for two service projects, while a standalone project doesn't use Shared VPC (click to enlarge).
 
 
 
