@@ -144,6 +144,7 @@ Let me simplify the bare minimum things to start considering from the beginning
 
   
 - Centralise and Control the Network using Shared VPC or VPC Peering. VPC Network Peering helps to connect different VPC networks and to communicate internally without traversing through the internet whereas Shared VPC allows an organisation to connect resources from multiple projects to a common network to communicate securely and efficiently using the internal IP from that network. In case if you are trying to connect from on-premises to Google Cloud, use Cloud VPN or Interconnect services depending on the business use case.
+- For More on [GCP Secure Network Design & Fundamentals](https://github.com/paulveillard/cybersecurity-gcp/blob/main/gcp-network-design.md)
 
 ## `4 - Securing your Applications and Data`
 ## `5 - Logging, Monitoring and Operations`
