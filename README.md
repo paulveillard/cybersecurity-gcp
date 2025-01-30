@@ -184,3 +184,11 @@ The centralised logging location must be highly secured with access to only priv
 
 
 ## `6 - Billing and Management`
+
+Even though this sounds very critical as it deals with $, it was surprising to see in some cases that this section has been handled in a least effective manner.
+
+Fundamentally, enterprises should take steps to understand ‘how each of these google cloud resources are charged’, ‘how they can setup a billing management controls’ and then plan for their capacity requirements by implementing cost controls and build centre of excellence over time
+
+> Budget Alerts are very critical for control and monitoring of the $$$ spent and implement ‘Labelling’ where ever applicable for easy tracking and isolation in breaking down the costs. These alerts help in the case of any excessive spending due to any malicious activity or attacks such as DDoS etc.,
+
+In order to build a centre of excellence, it is a good practice to nominate Google Cloud Experts and Champions in your team/organisation. A range of training and certification options are available to help nominated champions to grow in their area and build their expertise. Teams can stay up to date on the latest news, announcements and customer stories by following the Google Cloud Blog
