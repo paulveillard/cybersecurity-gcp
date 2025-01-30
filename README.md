@@ -147,5 +147,11 @@ Let me simplify the bare minimum things to start considering from the beginning
 - For More on [GCP Secure Network Design & Fundamentals](https://github.com/paulveillard/cybersecurity-gcp/blob/main/gcp-network-design.md)
 
 ## `4 - Securing your Applications and Data`
+Google Cloud has many wonderful Products and Services which helps your applications and data to be more secure and safe in addition to the scale you are looking for. Start using them to get the best benefit
+
+Some of the major gaps I’ve noticed with my different enterprise GCP foundation assessments are like No VPC Service Controls in place, No usage of Secret Manager at all, Poor Cloud SQL Security Configuration, Cloud Functions running with abnormalities and Steps not taken for Application Scalability and Security
+
+
+
 ## `5 - Logging, Monitoring and Operations`
 ## `6 - Billing and Management`
