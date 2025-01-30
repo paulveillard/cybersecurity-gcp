@@ -70,6 +70,9 @@ Virtual Private Cloud Network or simply network is a virtual version of a physic
 ### Subnetworks
 - Subnetworks allow us to group related resources (Compute Engine instances) into RFC1918 private address spaces. Subnetworks are regional resources. Each subnetwork defines a range of IP addresses.
 
+<p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/subnetworks-1.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 
 - A Subnetwork can be in two modes:
