@@ -45,11 +45,15 @@ An ongoing & curated collection of awesome software best practices and technique
 
 #### 1.2.1 - Organization
 
+- An organization in Google Cloud is the top-level container for resources. It serves as the anchor point for managing billing, policies, and permissions. Organizations provide a global context for all resources within them.
+
 ##### Purpose and Significance:
 ##### Characteristics and Functionality:
 ##### Creating and Managing an Organization:
 
-#### 1.2.2 - Organization
+
+
+#### 1.2.2 - Folders
 #### 1.2.3 - Projects
 #### 1.2.3 - Resources
 
