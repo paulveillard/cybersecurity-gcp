@@ -71,6 +71,7 @@ Billing and Cost Tracking: Leverage the organization’s billing features to tra
 
 The following code shows the structure of the organization’s resources:
 
+````
 {
   "creationTime": "2020-01-07T21:59:43.314Z",
   "displayName": "my-organization",
@@ -80,6 +81,7 @@ The following code shows the structure of the organization’s resources:
     "directoryCustomerId": "C012ba234"
   }
 }
+`````
 
 #### 1.2.2 - Folders
 #### 1.2.3 - Projects
