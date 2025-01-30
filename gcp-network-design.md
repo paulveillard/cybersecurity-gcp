@@ -12,6 +12,10 @@
 - [Adding firewall rules](#)
 - [VPC Network Example:](#)
 
+## GCP Virtual Networking
+- Networking services provide connectivity between cloud-based VMs, on-premises servers, and other cloud services. Google Cloud treats networking as a global feature that spans all its services. GCP networking is based on Google’s Andromeda architecture, which allows cloud administrators to create and use software-defined networking elements, such as firewalls, routing tables, and VMs.
+
+## GCP Networking Services and Components at a Glance
 
 ## VPC Main Components
 
