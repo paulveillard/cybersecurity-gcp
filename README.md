@@ -112,7 +112,7 @@ To avoid this, **follow the recommended IAM best practices** such as:
 > Avoid Automatic IAM permissions for default service accounts and Ability to create service accounts in a production environment.
 - Define Organization Policy/Policies which helps to set restrictions on specific resources to determine how those can be configured and used. For example, you can define a constraint to restrict any VM to not to use default service account.
 
-## 3 - Custom Network and Network Security —Think and Design Early
-## 4 - Securing your Applications and Data
-## 5 - Logging, Monitoring and Operations
-## 6 - Billing and Management
+## `3 - Custom Network and Network Security —Think and Design Early`
+## `4 - Securing your Applications and Data`
+## `5 - Logging, Monitoring and Operations`
+## `6 - Billing and Management`
