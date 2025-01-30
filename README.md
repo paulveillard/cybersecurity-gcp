@@ -191,4 +191,11 @@ Fundamentally, enterprises should take steps to understand ‘how each of these 
 
 > Budget Alerts are very critical for control and monitoring of the $$$ spent and implement ‘Labelling’ where ever applicable for easy tracking and isolation in breaking down the costs. These alerts help in the case of any excessive spending due to any malicious activity or attacks such as DDoS etc.,
 
-In order to build a centre of excellence, it is a good practice to nominate Google Cloud Experts and Champions in your team/organisation. A range of training and certification options are available to help nominated champions to grow in their area and build their expertise. Teams can stay up to date on the latest news, announcements and customer stories by following the Google Cloud Blog
+In order to build a centre of excellence, it is a good practice to nominate Google Cloud Experts and Champions in your team/organisation. A range of training and certification options are available to help nominated champions to grow in their area and build their expertise. Teams can stay up to date on the latest news, announcements and customer stories by following the Google Cloud Blog.
+
+## `License`
+MIT License & [cc](https://creativecommons.org/licenses/by/4.0/) license
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+To the extent possible under law, [Paul Veillard](https://github.com/paulveillard/) has waived all copyright and related or neighboring rights to this work.
