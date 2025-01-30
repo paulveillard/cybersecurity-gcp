@@ -321,8 +321,13 @@ Here is an example command to create an instance which has tags.
 ##### VPC Network Example:
 
 
+<p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/vpc-network.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
+
 > In the above example:
-> 
+
 - subnet1 is defined as 10.240.0.0/24 in us-west1 region. There are 2 VM instances in the us-west1-a zone in this subnet and their IP addresses are from the available range of addresses in subnet1.
 
 - Subnet2 is defined as 192.168.1.0/24 in the us-east1 region. There are 2 VM instances in the us-east1-a zone in this subnet and their IP addresses are from the available range of addresses in subnet1.
