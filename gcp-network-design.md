@@ -1,11 +1,11 @@
 # GCP Network Design: Things to Consider Before Starting GCP Network Design
 
 # Table of Contents
-- [GCP Virtual Networking]
-- [GCP Networking Services and Components at a Glance]
-- [VPC Main Components]
-- [Network Service Tiers]
-- [A Virtual Private Cloud (VPC) Network]
+- [GCP Virtual Networking](#)
+- [GCP Networking Services and Components at a Glance](#)
+- [VPC Main Components](#)
+- [Network Service Tiers](#)
+- [A Virtual Private Cloud (VPC) Network](#)
 - [Levels of Google Cloud Networking](#)
 - [Firewalls](#)
 - [Creating a custom network](#)
