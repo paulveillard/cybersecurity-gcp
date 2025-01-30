@@ -48,9 +48,10 @@ An ongoing & curated collection of awesome software best practices and technique
 - An organization in Google Cloud is the top-level container for resources. It serves as the anchor point for managing billing, policies, and permissions. Organizations provide a global context for all resources within them.
 
 ##### Purpose and Significance:
-Anchor Point: The organization serves as the highest-level anchor point in the resource hierarchy. It provides a global context for all resources within it, acting as the umbrella under which various projects and resources are organized.
+**Anchor Point:** The organization serves as the highest-level anchor point in the resource hierarchy. It provides a global context for all resources within it, acting as the umbrella under which various projects and resources are organized.
 
-Billing and Policies: One of the key roles of the organization is to manage billing and set overarching policies for all associated resources. This centralized control allows for streamlined financial management and policy enforcement.
+**Billing and Policies:** One of the key roles of the organization is to manage billing and set overarching policies for all associated resources. This centralized control allows for streamlined financial management and policy enforcement.
+
 ##### Characteristics and Functionality:
 ##### Creating and Managing an Organization:
 
