@@ -1,4 +1,4 @@
-# GCP Network Design :Things to Consider Before Starting GCP Network Design
+# GCP Network Design: Things to Consider Before Starting GCP Network Design
 
 # Table of Contents
 - [Levels of Google Cloud Networking](#)
