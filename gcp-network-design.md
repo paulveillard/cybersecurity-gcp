@@ -18,7 +18,14 @@
 
 ## GCP Networking Services and Components at a Glance
 
+<p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/network-1.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
 ## VPC Main Components
+<p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/network-2.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 ## Network Service Tiers
 
