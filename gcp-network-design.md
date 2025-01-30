@@ -130,7 +130,9 @@ It is good to know that there are several “non-routable” (not reachable from
 
 [GCP Example](https://cloud.google.com/vpc/docs/shared-vpc?hl=en#shared_vpc_overview) of A host project with a Shared VPC network provides internal connectivity for two service projects, while a standalone project doesn't use Shared VPC (click to enlarge).
 
-
+<p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/network-3.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 
 ### 6.2.5 Legacy Networks
