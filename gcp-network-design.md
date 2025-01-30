@@ -114,7 +114,16 @@ For example,
 represents the IPv4 address 192.168.100.14 and its subnet 24-bit mask 255.255.255.0
  ```
 
+Firewall rules designate the **0.0.0.0/0** CIDR address to represent any source (e.g. the Internet).
 
+Notes:
+It is good to know that there are several “non-routable” (not reachable from outside of the private networks) IP ranges:
+
+- class A reserved space 10.0.0.0/8
+- class B reserved space 172.16.0.0/12
+- class C reserved space 192.168.0.0/1
+
+> The above IP addresses are routable only within private networks.
 
 
 ### 6.2.4 A Basic Cross-Region VPC Network
