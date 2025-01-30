@@ -259,6 +259,21 @@ VPC firewall rules control traffic coming in and out of VM instances on a networ
 
 #### 7.2.1 Adding firewall rules
 
+###### Firewall Rules and IAM
+> The privilege of creating, modifying, and deleting firewall rules has been reserved for the compute.securityAdmin role by IAM. Users assigned to the compute.networkAdmin roles are able to safely view and list firewall rules that might apply to their projects.
+
+###### Allow/Ingress Rules
+> Allow and ingress are values which we can set for the flags —action and –direction while creating the firewall rules. –action can have 2 values. ALLOW and DENY. ALLOW was the only action supported previously. DENY rules are generally simpler to understand and apply.
+
+–direction can have 2 values. INGRESS and EGRESS. INGRESS refers to inbound and EGRESS refers to outbound connections.
+
+With INGRESS, EGRESS, ALLOW, DENY, and PRIORITY we have maximum control and flexibility for determining connections in and out of our networks.
+
+###### Network route
+> All networks have routes created automatically to the Internet (default route) and to the IP ranges in the network. The route names are automatically generated and will look different for each project.
+
+We can review the default routes using the console through this path: Navigation menu > VPC network > Routes.
+
 ### `7.3 Firewall Rule Elements (Components)`
 Each firewall rule you create in Google Cloud consists of the following main configuration elements (called components in the Google Cloud documentation):
 
