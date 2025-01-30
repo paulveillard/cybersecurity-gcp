@@ -89,8 +89,14 @@ Virtual Private Cloud Network or simply network is a virtual version of a physic
    - Custom mode network
 
 
-
 ### 6.2.2 Network and Subnet Terminology
+VPC networks and subnets are different types of objects in Google Cloud. 
+- VPC networks are global objects spanning all the available regions.
+  - Subnets are regional objects.
+
+- A VPC network must have at least one subnet before you can use the network. Subnet creation mode defines the type of VPC network (more on that later in the module …). Subnets define IP range partitions within a VPC. Accordingly, a VPC network, as such, does not have any IP address ranges associated with them.  IP ranges are defined for the subnets. Each subnet is associated with a geographical region; you can create more than one subnet per region.
+
+
 ### 6.2.3 CIDR Network Notation
 ### 6.2.4 A Basic Cross-Region VPC Network
 ### 6.2.5 Legacy Networks
