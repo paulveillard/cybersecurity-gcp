@@ -181,9 +181,11 @@ Types of VPC networks are determined by their subnet creation mode:
 
 You can switch from an auto-mode VPC network to a custom-mode VPC; the reverse conversion is not supported (this is a one-way conversion path).
 
-### 6.2.6 VPC Specifications 
 
-### 4.2.5 Considerations for Auto-mode VPC Networks
+
+### 6.2.6 Considerations for Auto-mode VPC Networks
+
+The most attractive feature of auto-mode VPC networks is the ease of setting them up. For production networks, Google recommends using custom-mode VPC networks. In the slide’s notes, you can find part of the table mapping regions to IP ranges and default gateway.
 
 #### Auto mode network:
 
