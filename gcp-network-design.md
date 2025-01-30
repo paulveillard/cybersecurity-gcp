@@ -220,11 +220,17 @@ Each instance which is created within a subnetwork gets assigned to an IPv4 addr
 
 ## `7 - Firewalls`
 
+### 7.1 Virtual Firefalls
 
-## Creating a custom network
+### 7.2 Firewall Rules
+
+#### 7.2.1 Adding firewall rules
 
 
-## Adding firewall rules
+### 7.3 Creating a custom network
+
+
+### 7.4 Adding firewall rules
 
 
 ## VPC Network Example:
