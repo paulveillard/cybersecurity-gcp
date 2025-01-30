@@ -16,11 +16,11 @@ An ongoing & curated collection of awesome software best practices and technique
   - [6 - Implement Billing and Management](#)
 - 
 
-# GCP — Cloud Security Best Practices for Enterprises
+# `GCP — Cloud Security Best Practices for Enterprises`
 
-## 1 - Build your Resources and Structure into Resource Hierarchy
+## `1 - Build your Resources and Structure into Resource Hierarchy`
 
-### 1.1 - What is the Google Cloud Resource Hierarchy?
+### `1.1 - What is the Google Cloud Resource Hierarchy?`
 - At its core, Google Cloud Resource Hierarchy is a structured way of organizing resources within the Google Cloud Platform (GCP). This hierarchical structure reflects relationships and dependencies, allowing for better management and control over various cloud assets. The primary components of this hierarchy include organizations, folders, projects, and individual resources.
 
 
@@ -41,7 +41,7 @@ An ongoing & curated collection of awesome software best practices and technique
 - The bottom layer is the ‘Project’ level. **Projects** help contain GCP resources which help constitute your application/s. Projects can contain resources spread across multiple regions and geographies. Best Practice is to have one project per application per environment.
 > For eg., if you’ve 2 applications ‘A’ and ‘B’, with a development, staging and production environment, you would have 6 projects in total such as A-dev, A-stage, A-prod and B-dev, B-stage, B-prod. This segregation helps in isolating the environments from each other so that changes in one project/env do not accidentally impact other project/env and also helps provide better access control too.
 
-### 1.2 Key Components of Resource Hierarchy
+### `1.2 Key Components of Resource Hierarchy`
 
 #### 1.2.1 - Organization
 
