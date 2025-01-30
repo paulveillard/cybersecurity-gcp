@@ -12,22 +12,22 @@
 - [Adding firewall rules](#)
 - [VPC Network Example:](#)
 
-## GCP Virtual Networking
+## `GCP Virtual Networking`
 - Networking services provide connectivity between cloud-based VMs, on-premises servers, and other cloud services. Google Cloud treats networking as a global feature that spans all its services.
 > GCP networking is based on Google’s Andromeda architecture, which allows cloud administrators to create and use software-defined networking elements, such as firewalls, routing tables, and VMs.
 
-## GCP Networking Services and Components at a Glance
+## `GCP Networking Services and Components at a Glance`
 
 <p align="center">
   <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/network-1.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-## VPC Main Components
+## `VPC Main Components`
 <p align="center">
   <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/network-2.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-## Network Service Tiers
+## `Network Service Tiers`
 GCP offers two Network Service Tiers
 
 - **Standard Tier, and**
@@ -38,7 +38,7 @@ GCP offers two Network Service Tiers
 
 
 
-## A Virtual Private Cloud (VPC) Network
+## `A Virtual Private Cloud (VPC) Network`
 Virtual Private Cloud Network or simply network is a virtual version of a physical network. In Google Cloud Networking, networks provide data connections into and out of cloud resources – mostly Compute Engine instances. 
 > Securing the Networks is critical to securing the data and controlling access to the resources.
 
@@ -61,7 +61,9 @@ Virtual Private Cloud Network or simply network is a virtual version of a physic
 ## VPC Network Example:
 
 
-
+References:
+- https://www.webagesolutions.com/blog/google-cloud-virtual-networking
+- https://tudip.com/blog-post/google-cloud-networking/
 
 
 
