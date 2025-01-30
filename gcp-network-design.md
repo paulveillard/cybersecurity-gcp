@@ -143,10 +143,9 @@ It is good to know that there are several “non-routable” (not reachable from
 ### 6.2.5 Legacy Networks
 Currently used Google Cloud VPC networks offer users more advanced features compared to older networks now downgraded to the legacy status. Legacy networks lack many of the capabilities found in modern VPCs. Legacy networks are associated with a single global IP range that cannot be subdivided into subnets; VPC networks are partitionable into subnets making it possible for each Google Cloud region to be associated with one or more subnets in a single VPC network. Legacy networks do not support Private Google Access (PGA is discussed later in the module). If you already have an older legacy network, there is a migration path to upgrade it to a VPC network; there is, however, no path to convert a VPC network into a legacy network.
 
-Notes:
-Google Cloud issued a warning: “Legacy networks are deprecated and will shut down on June 1, 2021 for any GCP project. After that date, you won’t be able to create legacy networks. However, existing legacy networks won’t be affected and will continue to operate normally. Until that date, the field will be available only for projects with existing legacy networks.”
+> Notes: Google Cloud issued a warning: “Legacy networks are deprecated and will shut down on June 1, 2021 for any GCP project. After that date, you won’t be able to create legacy networks. However, existing legacy networks won’t be affected and will continue to operate normally. Until that date, the field will be available only for projects with existing legacy networks.”
 
-One limitation with legacy networks is that it is not possible to create regional subnets in a legacy network
+- One limitation with legacy networks is that it is not possible to create regional subnets in a legacy network
 
 ### 6.2.6 Listing Networks
 ### 6.2.5 Projects and VPC Relationship
