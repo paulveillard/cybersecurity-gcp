@@ -113,6 +113,21 @@ To avoid this, **follow the recommended IAM best practices** such as:
 - Define Organization Policy/Policies which helps to set restrictions on specific resources to determine how those can be configured and used. For example, you can define a constraint to restrict any VM to not to use default service account.
 
 ## `3 - Custom Network and Network Security —Think and Design Early`
+To be frank, the issues I noticed under this section are like eye-openers as I couldn’t believe my eyes when I first looked at it.
+
+You know what — People are using ‘Default’ Networks. Just not that but also ‘Default’ firewall rules which are unbelievably true from my perspective. You cannot start worse than this ;>(
+
+
+Let me simplify the bare minimum things to start considering from the beginning
+
+- Avoid using ‘Default’ VPC Network especially in Google Cloud rather use ‘Custom’ VPC Network. There is a massive difference between other CSPs vs about GCP how the default VPC has been set up. Spend little time to understand that before you start. Google recommends enterprises to use custom mode VPC Networks for some valid reasons. Refer here for more information.
+
+- Avoid using ‘Default’ firewall rules instead create your own ‘custom’ firewall rules which brings loads of control about how you can group and isolate related resources with combination of the network and firewall rules. These firewall rules allow you to specify the type of traffic like ports and protocols and the source or destination of the traffic. Default firewall rules open up ports for a wide range of IP addresses for some protocols which is a potential security risk and not a recommended best practice
+Enable Firewall Rule Logging which helps to audit, verify and analyse the effectiveness of the firewall rules in action. It’s a recommended practice to enable these logs for audit and analysis purpose
+Use VPC Flow Logs and create a process to enable flow logs when needed. Theses logs can be used for network monitoring, forensics, real-time security analysis and also helps in expense optimisation too
+Avoid or Limit External Access to the internet to only those google cloud resources that need it. Resources within a VPC network can communicate among themselves anyhow through internal IP addresses and this can be further limited using Firewall rules if needed. Use google cloud services such as ‘Cloud NAT’ and ‘Private Google Access’ based on the use case to avoid simply opening up your resources to the internet. Common mistakes noted are like Every VM has an external IP address attached to it, GCS buckets are freely accessible apart from not using the earlier mentioned services
+Centralise and Control the Network using Shared VPC or VPC Peering. VPC Network Peering helps to connect different VPC networks and to communicate internally without traversing through the internet whereas Shared VPC allows an organisation to connect resources from multiple projects to a common network to communicate securely and efficiently using the internal IP from that network. In case if you are trying to connect from on-premises to Google Cloud, use Cloud VPN or Interconnect services depending on the business use case
+
 ## `4 - Securing your Applications and Data`
 ## `5 - Logging, Monitoring and Operations`
 ## `6 - Billing and Management`
