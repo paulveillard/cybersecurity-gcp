@@ -106,9 +106,9 @@ In a nut shell, most common issues found are like using ‘individual’ account
 
 To avoid this, follow the recommended IAM best practices such as:
 
-Always use fully managed google accounts which are tied to your corporate domain name through Cloud Identity. This forms a management layer through which enabling or disabling the access to your google cloud resources is easily possible
-Synchronise your user directory to Cloud Identity which lets your users to access the google cloud resources with their existing credentials. This leads to have your identity platform as the ‘single source of truth’ whereas Cloud Identity helps you to control the ‘how’ access to your google cloud resources
-Control access to resources using google groups instead of individual accounts and use Service Accounts where applicable. For all the server-to-server interactions, use service accounts. For example, avoid Automatic IAM permissions for default service accounts and Ability to create service accounts in a production environment
+- Always use fully managed google accounts which are tied to your corporate domain name through Cloud Identity. This forms a management layer through which enabling or disabling the access to your google cloud resources is easily possible
+- Synchronise your user directory to Cloud Identity which lets your users to access the google cloud resources with their existing credentials. This leads to have your identity platform as the ‘single source of truth’ whereas Cloud Identity helps you to control the ‘how’ access to your google cloud resources
+- Control access to resources using google groups instead of individual accounts and use Service Accounts where applicable. For all the server-to-server interactions, use service accounts. For example, avoid - - - Automatic IAM permissions for default service accounts and Ability to create service accounts in a production environment
 Define Organization Policy/Policies which helps to set restrictions on specific resources to determine how those can be configured and used. For example, you can define a constraint to restrict any VM to not to use default service account.
 
 ## 3 - Custom Network and Network Security —Think and Design Early
