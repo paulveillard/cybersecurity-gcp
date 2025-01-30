@@ -47,6 +47,11 @@ An ongoing & curated collection of awesome software best practices and technique
 
 - An organization in Google Cloud is the top-level container for resources. It serves as the anchor point for managing billing, policies, and permissions. Organizations provide a global context for all resources within them.
 
+  <p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/organisation.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
+
 ##### Purpose and Significance:
 **Anchor Point:** The organization serves as the highest-level anchor point in the resource hierarchy. It provides a global context for all resources within it, acting as the umbrella under which various projects and resources are organized.
 
@@ -64,7 +69,7 @@ Hierarchy Root: The organization is the root of the resource hierarchy. All reso
 
 **IAM Policies:** Identity and Access Management (IAM) policies are crucial within an organization. They determine who has access to what resources and what actions they can perform. IAM policies are set at the organization level and cascade down through the hierarchy.
 
-##### 
+##### Best Practices
 Reflecting Business Structure: Align the organization’s structure with the business’s organizational structure. This ensures that the resource hierarchy accurately represents the relationships and dependencies within the organization.
 
 Billing and Cost Tracking: Leverage the organization’s billing features to track and manage costs effectively. This includes setting budgets and alerts and optimizing spending across projects.
