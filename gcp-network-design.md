@@ -151,6 +151,9 @@ Currently used Google Cloud VPC networks offer users more advanced features comp
 
 A fast way to view the VPC (and legacy, if any) networks in your project is to use the gcloud compute networks list command. VPC networks will list their subnet modes; legacy networks will be marked with the LEGACY subnet creation mode.
 
+<p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/listnet.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 
 ### 6.2.5 Projects and VPC Relationship
