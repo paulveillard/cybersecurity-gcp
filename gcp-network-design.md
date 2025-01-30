@@ -79,9 +79,25 @@ Virtual Private Cloud Network or simply network is a virtual version of a physic
    - Auto mode network
    - Custom mode network
 
+
+
+### 4.2.2 Network and Subnet Terminology
+### 4.2.3 CIDR Network Notation
+### 4.2.4 A Basic Cross-Region VPC Network
+### 4.2.5 Legacy Networks
+### 4.2.6 Listing Networks
+### 4.2.5 Projects and VPC Relationship
+### 4.2.6 VPC Specifications 
+### 4.2.5 Types of VPC Networks
+### 4.2.6 VPC Specifications 
+
+### 4.2.5 Considerations for Auto-mode VPC Networks
+
 #### Auto mode network:
 
 An auto mode network has one subnet per region, each with a predetermined IP range which fit within the 10.128.0.0/9 CIDR block. These subnets are created automatically when the auto mode network has created, and each subnet has the same name as the overall network. When any new GCP regions become available, new subnets for those regions are automatically added to the auto mode networks using an IP range from that block. We can add more subnets manually to auto mode networks in addition to the automatically created subnets.
+
+### 4.2.6 Considerations for Custom-mode VPC Networks
 
 #### Custom mode network:
 
@@ -96,14 +112,6 @@ We can create up to four additional networks in a project. Additional networks c
 Each instance which is created within a subnetwork gets assigned to an IPv4 address from that subnetwork range.
 
 > Note: Since the default Network allows relatively open access, it is a recommended best practice that you delete it. The default Network cannot be deleted unless another Network is present. Please make sure you delete all the firewall rules for the associated VPC before deleting the VPC network.
-
-
-### 4.2.2 Subnetworks
-### 4.2.3 Subnetworks
-### 4.2.4 Subnetworks
-### 4.2.5 Subnetworks
-### 4.2.6 Subnetworks
-
 
 
 
