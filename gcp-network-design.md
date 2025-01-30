@@ -160,10 +160,16 @@ gcloud compute networks describe <NETWORK>
  ```
 
 ### 6.2.5 Projects and VPC Relationship
-
+Projects can contain multiple VPC networks unless an organizational policy prohibits it.
+- While you can create and add more networks to your project, networks, however, cannot be shared between projects. New projects start with a default network (an auto-mode VPC network) that has one subnetwork (subnet) in each region. The default network (an auto-mode VPC network) comes with pre-populated firewall rules that you can delete or modify.
 
 ### 6.2.6 VPC Specifications 
+
+
 ### 6.2.5 Types of VPC Networks
+
+
+
 ### 6.2.6 VPC Specifications 
 
 ### 4.2.5 Considerations for Auto-mode VPC Networks
