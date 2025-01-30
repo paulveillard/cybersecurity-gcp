@@ -53,6 +53,11 @@ An ongoing & curated collection of awesome software best practices and technique
 **Billing and Policies:** One of the key roles of the organization is to manage billing and set overarching policies for all associated resources. This centralized control allows for streamlined financial management and policy enforcement.
 
 ##### Characteristics and Functionality:
+Hierarchy Root: The organization is the root of the resource hierarchy. All resources and projects within the Google Cloud Platform are organized under an organization.
+
+Management and Permission: It facilitates centralized management, allowing administrators to set permissions and policies that apply across the entire organization. This includes access control and defining roles for users and groups.
+
+Resource Aggregation: Resources within an organization can span multiple projects and folders. This aggregation makes it easier to manage and oversee resources at scale.
 ##### Creating and Managing an Organization:
 
 
