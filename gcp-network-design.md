@@ -356,11 +356,11 @@ Here is an example command to create an instance which has tags.
 
 #### 7.5.3 Authoring Firewall Rules
 
-Setting a Default Compute Zone with gcloud
+#### 7.5.4 Setting a Default Compute Zone with gcloud
 
-Protocol and Destination Port Specification Combinations
+#### 7.5.5 Protocol and Destination Port Specification Combinations
 
-GKE Firewall Rules
+#### 7.5.6 GKE Firewall Rules
 
 8 - Routes
 
