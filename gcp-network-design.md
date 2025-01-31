@@ -362,6 +362,10 @@ Here is an example command to create an instance which has tags.
 </p>
 
 #### 7.5.2 Egress (Outbound) Rules
+<p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/egress.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
 
 #### 7.5.3 Authoring Firewall Rules
 
