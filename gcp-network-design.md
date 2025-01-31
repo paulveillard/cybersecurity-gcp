@@ -397,7 +397,19 @@ Traffic from i1 to i2 can be controlled by using either of these firewall rules:
   <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/protocol.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
+> Source: https://cloud.google.com/vpc/docs/firewalls#firewall_rule_components
+
+> Notes: Be aware of the configuration rule that a port cannot be specified by itself (e.g. 8080). Make sure you use it in combination F23 with the protocol (e.g. tcp:8080)
+
 #### 7.5.6 GKE Firewall Rules
+
+Google Kubernetes Engine creates firewall rules automatically when creating the following resources:
+
+- GKE Clusters
+- GKE Services
+- GKE Ingresses
+
+> For more information, see https://cloud.google.com/kubernetes-engine/docs/concepts/firewall-rules
 
 8 - Routes
 
