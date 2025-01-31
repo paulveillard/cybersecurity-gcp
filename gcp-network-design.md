@@ -392,6 +392,10 @@ gcloud config set compute/zone us-central1-a
 Traffic from i1 to i2 can be controlled by using either of these firewall rules:
   - An ingress rule with a target of i2 and a source of i1
   - An egress rule with a target of i1 and a destination of i2
+ 
+  <p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/protocol.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 #### 7.5.6 GKE Firewall Rules
 
