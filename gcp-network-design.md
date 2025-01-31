@@ -361,11 +361,14 @@ Here is an example command to create an instance which has tags.
   <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/ingress.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
+> Source: https://cloud.google.com/vpc/docs/firewalls#firewall_rule_components
+
 #### 7.5.2 Egress (Outbound) Rules
 <p align="center">
   <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/egress.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
+> Source: https://cloud.google.com/vpc/docs/firewalls#firewall_rule_components
 
 #### 7.5.3 Authoring Firewall Rules
 
