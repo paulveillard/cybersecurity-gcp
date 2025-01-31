@@ -372,6 +372,12 @@ Here is an example command to create an instance which has tags.
 
 #### 7.5.3 Authoring Firewall Rules
 
+You create or modify VPC firewall rules by using either
+
+- Cloud Console, or
+- The gcloud command-line tool, or
+- REST API
+
 #### 7.5.4 Setting a Default Compute Zone with gcloud
 
 #### 7.5.5 Protocol and Destination Port Specification Combinations
