@@ -381,10 +381,17 @@ You create or modify VPC firewall rules by using either
 #### 7.5.4 Setting a Default Compute Zone with gcloud
 - Use this gcloud command to set default compute zone:
 
-  gcloud config set compute/zone <your default zone>, e.g.
+````
+gcloud config set compute/zone <your default zone>, e.g.
 gcloud config set compute/zone us-central1-a
 
+````
+
 #### 7.5.5 Protocol and Destination Port Specification Combinations
+- The following example can help you understand how to identify the applicable rules to a connection between two VM instances (i1 and i2) running in the same network
+Traffic from i1 to i2 can be controlled by using either of these firewall rules:
+  - An ingress rule with a target of i2 and a source of i1
+  - An egress rule with a target of i1 and a destination of i2
 
 #### 7.5.6 GKE Firewall Rules
 
