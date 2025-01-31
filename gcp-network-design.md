@@ -379,6 +379,10 @@ You create or modify VPC firewall rules by using either
 - REST API
 
 #### 7.5.4 Setting a Default Compute Zone with gcloud
+- Use this gcloud command to set default compute zone:
+
+  gcloud config set compute/zone <your default zone>, e.g.
+gcloud config set compute/zone us-central1-a
 
 #### 7.5.5 Protocol and Destination Port Specification Combinations
 
