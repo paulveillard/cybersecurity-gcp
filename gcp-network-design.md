@@ -23,7 +23,7 @@
   - [7.5.4 Setting a Default Compute Zone with gcloud](#)
   - [7.5.5 Protocol and Destination Port Specification Combinations](#)
   - [7.5.6 GKE Firewall Rules](#)
-- [Creating a custom network](#)
+- [8 - Routes](#)
 - [Adding firewall rules](#)
 - [VPC Network Example:](#)
 
