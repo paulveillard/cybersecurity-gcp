@@ -17,12 +17,12 @@
   - [6.2.5 Types of VPC Networks](#)
   - [6.2.6 VPC Specifications](#)
 - [7 - Firewalls](#)
-  - 7.5.1 Ingress (Inbound) Firewall Rules
-  - 7.5.2 Egress (Outbound) Rules
-  - 7.5.3 Authoring Firewall Rules
-  - 7.5.4 Setting a Default Compute Zone with gcloud
-  - 7.5.5 Protocol and Destination Port Specification Combinations
-  - 7.5.6 GKE Firewall Rules
+  - 7.5.1 [Ingress (Inbound) Firewall Rules]
+  - 7.5.2 [Egress (Outbound) Rules]
+  - 7.5.3 [Authoring Firewall Rules]
+  - 7.5.4 [Setting a Default Compute Zone with gcloud]
+  - 7.5.5 [Protocol and Destination Port Specification Combinations]
+  - 7.5.6 [GKE Firewall Rules]
 - [Creating a custom network](#)
 - [Adding firewall rules](#)
 - [VPC Network Example:](#)
