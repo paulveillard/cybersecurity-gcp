@@ -484,9 +484,14 @@ VM A2 and VM B2 can both access Google APIs and services, including Cloud Storag
 </p>
 
 ### 8.5 - Automated Network Deployment
+You can automate network deployment using Cloud Deployment Manager and Terraform by HashiCorp. 
+- Deployment Manager is part of Google Cloud. Terraform is an open-source tool. Both Deployment Manager and Terraform perform the necessary inter-dependency checks and, where possible, create resources in parallel, which can significantly speed up the process.
+
+For the tutorial on how to automate network deployment, see https://cloud.google.com/solutions/automated-network-deployment-overview
 
 ### 8.6 - IP Addresses
-
+All instances in Google Cloud are assigned an internal IP. An external IP, if needed, can be requested.
+- Be aware that an external IP, once provisioned, by default, is tied to the life of the instance (may change after instance reboot). Static (permanent) IP addresses can be also requested; permanent IP addresses are re-assignable and can be re-attached to your instances as needed.
 
 ## `9 - Google Cloud Load Balancing`
 - ***Load balancing*** distributes user traffic across multiple instances of your applications fronted by a load balancer visible to the outside world as a single IP address end-point. **Google Cloud load balancing is a fully distributed, software-defined managed service. Load balancing serves the following two main purposes:**
@@ -528,7 +533,7 @@ Google Cloud offers the following core load balancing features:
 > Notes: The Open Systems Interconnection (OSI) model describes seven layers used by computer systems to communicate over a network. Currently in use is a simpler TCP/IP OSI model. The OSI 7-layer model is still in wide use as it helps visualize how networks operate.
 
 <p align="center">
-  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/private.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/osap.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 
