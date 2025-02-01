@@ -15,7 +15,7 @@
   <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/network-1.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-## Global Network I & II
+## `3 - Global Network I & II`
 
 
 * **Network**: Is a collection of connected devices for the purpose of communication. This can be a physical or logical connection. 
@@ -50,7 +50,7 @@
 * **Private.googleapis.com IP**: Used to access external GCP APIs via google private network. 199.36.153.8/30 [<sup>:link:</sup>](https://cloud.google.com/vpc/docs/configure-private-google-access) 
 * **Network Time Protocol (NTP)**:  Is used to synchronize systems timer across a network. This is used on both internal and external networks. [<sup>:link:</sup>](https://developers.google.com/time) 
     
-### OSI model and Internet model
+## OSI model and Internet model
   
 * **What is the OSI model**: A 7 layer conceptual model that provides interoperability of the TCP stack. [<sup>:link:</sup>](https://learningnetwork.cisco.com/s/article/osi-model-reference-chart) 
 * **Application layer (layer 7)**: User interface and application. Protocols examples HTTP, HTML
@@ -67,7 +67,7 @@
 * **Internet layer**: Responsible for routing packets through networks.  
 * **Link layer**: From a device it interacts with physical network. 
 
-### TCP, TCP three-way handshake, UDP, QUIC
+## TCP, TCP three-way handshake, UDP, QUIC
   
 * **Transmission Control Protocol (TCP)**: This is a connection oriented protocol that handles reliability, flow and congestion control of packets. It establishes a connection before sending a packet. [<sup>:link:</sup>](https://datatracker.ietf.org/doc/html/rfc793) 
 * **Transmission Control Block**: Contains all the information about the connection and implements the sliding window.
@@ -81,7 +81,7 @@
 * **Quick UDP Internet Connections (QUIC)**: A Google made transport layer protocol. This is built on top of UDP.[<sup>:link:</sup>](https://peering.google.com/#/learn-more/quic) 
 * **Transport Layer Security (TLS)**: A protocol that provides cryptography by using certificates. [<sup>:link:</sup>](https://en.wikipedia.org/wiki/Transport_Layer_Security) 
 
-### Packet, Frame, MTU
+## Packet, Frame, MTU
   
 * **Data messages types**: These are frames, packets, datagrams. They may exist at different layers of the OSI model.
 * **Maximum transfer unit (MTU)**: The size of the largest unit of data that can be transmitted over the network.
@@ -91,7 +91,7 @@
 * **Broadcast message**: These are sent to every device on a network.  
  
 
-### ARP, RARP, DNS & NAT
+## ARP, RARP, DNS & NAT
   
 * **Domain Name Service (DNS)**: Resolves names to IP addresses.
 * **Cloud DNS**: Google Cloud managed DNS offering. [<sup>:link:</sup>](https://cloud.google.com/dns/docs/overview/) 
@@ -104,7 +104,7 @@
 * **Network Address Translation (NAT)**: Allows private IP ranges to communicate with the internet. Maintains a NAT table of private to public address & port mappings for communications. 
 * **Cloud NAT**: Google Cloud managed NAT service [<sup>:link:</sup>](https://cloud.google.com/nat/docs/overview)  
 
-### Routing, Cloud Router, Dynamic Routing, BGP, MPLS
+## Routing, Cloud Router, Dynamic Routing, BGP, MPLS
   
 * **Routing**: Selecting a path for traffic to flow within internal networks or between different networks.
 * **Router**: Allows communication between different networks.  
@@ -126,7 +126,7 @@
 * **Multiprotocol label switching (MPLS)**: This is a switching method that uses labels instead of IP information to transmit packets across the backbone core at high speed. 
 * **Bidirectional Forwarding Detection (BFD)**: This is a protocol that detects failure quickly on links when enabled. In GCP you can use this [feature](https://cloud.google.com/network-connectivity/docs/router/concepts/bfd) with Cloud Router. 
 
-### Data Center Networking
+## Data Center Networking
   
 * **Optical switch circuit**: Maps optical input to output ports to form a connection. 
 * **Wave division multiplexing**: WDM technology allows you to combine multiple optical signal onto a single optical fiber. 
@@ -153,7 +153,7 @@
 * **VPC Network Peering**: GCP service that allow you to connect between different VPC’s in the same or separate project and organizations. This is 1-to-1 peering that is not transitive. Max peering per VPC is 25 connections.  [<sup>:link:</sup>](https://cloud.google.com/vpc/docs/vpc-peering)
 * **Traffic Director**: Google Cloud service that offers a fully managed traffic control plane for service mesh. [<sup>:link:</sup>](https://cloud.google.com/traffic-director/docs/features)
 
-### Network Security
+## Network Security
   
 * **Firewalls**: Allow, deny & filter traffic based on rules. Affect ingress and egress traffic.
 * **Firewall rules**: Criteria used to deny, allow access in GCP e.g. IP, source, tag, service account. [<sup>:link:</sup>](https://cloud.google.com/vpc/docs/firewalls)  
@@ -166,7 +166,7 @@
 * **Cloud IDS**: Google Cloud’s Intrusion Detection System. Detect and logs potential threats. [<sup>:link:</sup>](https://cloud.google.com/intrusion-detection-system/docs/overview)
 
 
-### Traffic handling, Load balancing, Content Delivery
+## Traffic handling, Load balancing, Content Delivery
   
 * **HTTP(S) Load Balancer**: Global load balancer for HTTP(S) traffic. [<sup>:link:</sup>](https://cloud.google.com/load-balancing/docs/https)
 * **SSL proxy**: Global load balancer for SSL traffic. [<sup>:link:</sup>](https://cloud.google.com/load-balancing/docs/ssl)  
@@ -182,7 +182,7 @@
 * **Hypertext Transfer Protocol (HTTP)**: Protocol used for transmitting hypermedia documents. This is a standard on the internet, more commonly in it secure form HTTP(S).  [<sup>:link:</sup>](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 * **HTTPS**: Secure version of HTTP enabled by using TLS on the connection. [<sup>:link:</sup>](https://en.wikipedia.org/wiki/HTTPS)
 
-### Troubleshooting & Monitoring
+## Troubleshooting & Monitoring
   
 * **ping**: This tool checks the availability of host by using Internet Control Message Protocol.
 * **Traceroute or tracert**: Shows the hops between source and destination. 
@@ -199,7 +199,7 @@
 * **Service Directory**: A GCP  managed service that gives you a single place to publish, discover, and connect services. See more [<sup>:link:</sup>](https://cloud.google.com/service-directory/docs/overview)
 
 
-### What happens when you type www.google.com in a browser
+## What happens when you type www.google.com in a browser
 
  - 1 - Open browser type www.google.com  
 - 2 - Browser cache is checked to see if IP information was cached  
