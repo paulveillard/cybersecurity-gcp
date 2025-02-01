@@ -425,6 +425,26 @@ References:
 
 ### - 8.1 Route Categories (Types)
 
+- Google Cloud has two categories (types) of routes:
+  - system-generated, and
+  - custom
+- Every new network is provisioned with two types of system-generated routes:
+  - The default one that defines a path for traffic leaving the VPC network and provides internet access to VMs that need it, as well as the “typical path” for Private Google Access
+  - A subnet route created for each of the IP ranges associated with a subnet
+- Custom routes are either manually created static routes or dynamic routes maintained automatically by one or more of your Cloud Routers
+  - For more information on custom routes, visit https://cloud.google.com/vpc/docs/routes#custom-routes
+
+#### Notes
+Note A
+
+If your VPC network is connected to an on-prem network through Cloud VPN or Cloud Interconnect, you need to make sure that your subnet IP address ranges do not conflict with those on-prem.
+
+ 
+
+Note B
+
+Every subnet has at least one subnet route for its primary IP range; additional subnet routes are created for a subnet if you add secondary IP ranges to it. Subnet routes define paths for traffic to reach VMs that use the subnets.
+
 
 ## `License`
 MIT License & [cc](https://creativecommons.org/licenses/by/4.0/) license
