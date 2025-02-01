@@ -442,6 +442,22 @@ References:
 
 > Note B: Every subnet has at least one subnet route for its primary IP range; additional subnet routes are created for a subnet if you add secondary IP ranges to it. Subnet routes define paths for traffic to reach VMs that use the subnets.
 
+### - 8.2  Configuring Private Google Access
+
+- When you create a Compute Engine VM, it has, by default, no external IP address assigned to its network interface
+  - This circumstance limits the instance to only being able to send IP packets to other internal IP addresses
+- To allow connectivity from these VMs to external IP addresses used by Google Cloud Developer APIs and services, you need to enable Private Google Access (PGA) on the subnet used by the VM’s network interface
+  - PGA also allows access to the external IP addresses used by App Engine
+  - The list of the supported PGA services can be found here: https://cloud.google.com/vpc/docs/private-google-access#pga-supported
+  - PGA configuration steps can be found here: https://cloud.google.com/vpc/docs/configure-private-google-access
+
+> Notes: Currently, the following services are not supported by PGA:
+ - App Engine Memcache
+ - Filestore
+ - Memorystore
+
+
+
 
 ## `License`
 MIT License & [cc](https://creativecommons.org/licenses/by/4.0/) license
