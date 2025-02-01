@@ -18,6 +18,8 @@ An ongoing & curated collection of awesome software best practices and technique
 
 #  `GCP — Google Cloud Platform`
 
+Explore over [150+ Google Cloud products] (https://cloud.google.com/products?hl=en) 
+
 <p align="center">
   <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/gcp-developer.png?raw=true" alt="Sublime's custom image"/>
 </p>
