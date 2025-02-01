@@ -423,7 +423,7 @@ References:
 - https://www.webagesolutions.com/blog/google-cloud-virtual-networking
 - https://tudip.com/blog-post/google-cloud-networking/
 
-### - 8.1 Route Categories (Types)
+###  8.1 -  Route Categories (Types)
 
 - Google Cloud has two categories (types) of routes:
   - system-generated, and
@@ -442,7 +442,7 @@ References:
 
 > Note B: Every subnet has at least one subnet route for its primary IP range; additional subnet routes are created for a subnet if you add secondary IP ranges to it. Subnet routes define paths for traffic to reach VMs that use the subnets.
 
-### - 8.2  Configuring Private Google Access
+### 8.2 - Configuring Private Google Access
 
 - When you create a Compute Engine VM, it has, by default, no external IP address assigned to its network interface
   - This circumstance limits the instance to only being able to send IP packets to other internal IP addresses
@@ -456,7 +456,7 @@ References:
  - Filestore
  - Memorystore
 
-### - 8.3 The Implementation of Private Google Access Diagram
+### 8.3 -  The Implementation of Private Google Access Diagram
  
   <p align="center">
   <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/private.png?raw=true" alt="Sublime's custom image"/>
@@ -471,13 +471,29 @@ VM B1 cannot access Google APIs and services because it only has an internal IP 
 VM A2 and VM B2 can both access Google APIs and services, including Cloud Storage, because they each have external IP addresses. Private Google Access has no effect on whether or not these instances can access Google APIs and services because both have external IP addresses.
 ````
 
-### - 8.4 Cloud NAT
+### 8.4 - Cloud NAT
 - Cloud NAT (Network Address Translation) is a fully-managed cloud service that provides software-defined network address translation support for Google Cloud.
 - Cloud NAT enables your VM instances and private GKE clusters not bound to external IP addresses to connect to the Internet.
 - Cloud NAT does not implement unsolicited inbound connections from the Internet: it would only allow inbound IP packets in response to locally initiated socket connections to the outside party.
 - For more information about the Cloud NAT service, visit https://cloud.google.com/nat/docs/overview
 
-### - Traditional NAT vs Cloud NAT
+### 8.5 - Traditional NAT vs Cloud NAT
+
+  <p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/private.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
+### 8.5 - Automated Network Deployment
+
+### 8.6 - IP Addresses
+
+
+## 9 - Google Cloud Load Balancing
+
+### 9.1 - Google Cloud Load Balancing Features
+
+## 10 - Summary
+
 
 
 
