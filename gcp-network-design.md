@@ -546,6 +546,9 @@ In this guide, we discussed the following topics:
 - Implementing VPC networks and firewall rules
 - Implementing Private Google Access and Cloud NAT
 - Load balancing
+- References
+  - [Google Cloud Virtual Networking](https://www.webagesolutions.com/blog/google-cloud-virtual-networking)
+  - [Google Cloud Networking](https://tudip.com/blog-post/google-cloud-networking/)
 
 
 
