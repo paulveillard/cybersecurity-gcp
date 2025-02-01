@@ -488,12 +488,19 @@ VM A2 and VM B2 can both access Google APIs and services, including Cloud Storag
 ### 8.6 - IP Addresses
 
 
-## 9 - Google Cloud Load Balancing
+## `9 - Google Cloud Load Balancing`
 
 ### 9.1 - Google Cloud Load Balancing Features
 
-## 10 - Summary
+## `10 - Summary`
 
+In this guide, we discussed the following topics:
+
+- VPC objects in Google Cloud
+- Types of VPC networks
+- Implementing VPC networks and firewall rules
+- Implementing Private Google Access and Cloud NAT
+- Load balancing
 
 
 
