@@ -525,6 +525,12 @@ Google Cloud offers the following core load balancing features:
 - Directing traffic based on data at the transport layer (e.g. target IP addresses and TCP or UDP ports)
 - Integration with Cloud CDN for cached content delivery (a way to bring the load balancer end-point closer to your customers)
 
+> Notes: The Open Systems Interconnection (OSI) model describes seven layers used by computer systems to communicate over a network. Currently in use is a simpler TCP/IP OSI model. The OSI 7-layer model is still in wide use as it helps visualize how networks operate.
+
+<p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/private.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
 
 ## `10 - Summary`
 
