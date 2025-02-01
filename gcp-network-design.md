@@ -471,7 +471,16 @@ VM B1 cannot access Google APIs and services because it only has an internal IP 
 VM A2 and VM B2 can both access Google APIs and services, including Cloud Storage, because they each have external IP addresses. Private Google Access has no effect on whether or not these instances can access Google APIs and services because both have external IP addresses.
 ````
 
-### - 8.4 
+### - 8.4 Cloud NAT
+- Cloud NAT (Network Address Translation) is a fully-managed cloud service that provides software-defined network address translation support for Google Cloud.
+- Cloud NAT enables your VM instances and private GKE clusters not bound to external IP addresses to connect to the Internet.
+- Cloud NAT does not implement unsolicited inbound connections from the Internet: it would only allow inbound IP packets in response to locally initiated socket connections to the outside party.
+- For more information about the Cloud NAT service, visit https://cloud.google.com/nat/docs/overview
+
+### - Traditional NAT vs Cloud NAT
+
+
+
 
 ## `License`
 MIT License & [cc](https://creativecommons.org/licenses/by/4.0/) license
