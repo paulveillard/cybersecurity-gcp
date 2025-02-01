@@ -435,15 +435,12 @@ References:
   - For more information on custom routes, visit https://cloud.google.com/vpc/docs/routes#custom-routes
 
 #### Notes
-Note A
 
-If your VPC network is connected to an on-prem network through Cloud VPN or Cloud Interconnect, you need to make sure that your subnet IP address ranges do not conflict with those on-prem.
+> Note A: If your VPC network is connected to an on-prem network through Cloud VPN or Cloud Interconnect, you need to make sure that your subnet IP address ranges do not conflict with those on-prem.
 
  
 
-Note B
-
-Every subnet has at least one subnet route for its primary IP range; additional subnet routes are created for a subnet if you add secondary IP ranges to it. Subnet routes define paths for traffic to reach VMs that use the subnets.
+> Note B: Every subnet has at least one subnet route for its primary IP range; additional subnet routes are created for a subnet if you add secondary IP ranges to it. Subnet routes define paths for traffic to reach VMs that use the subnets.
 
 
 ## `License`
