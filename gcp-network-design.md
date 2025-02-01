@@ -489,6 +489,18 @@ VM A2 and VM B2 can both access Google APIs and services, including Cloud Storag
 
 
 ## `9 - Google Cloud Load Balancing`
+- ***Load balancing*** distributes user traffic across multiple instances of your applications fronted by a load balancer visible to the outside world as a single IP address end-point. **Google Cloud load balancing is a fully distributed, software-defined managed service. Load balancing serves the following two main purposes:**
+
+- Lending high availability and fault tolerance quality of services to your applications.
+- Achieving horizontal scaling to better support high request volumes.
+
+Google Cloud provides a set of DDos protection mechanisms, depending on the load balancer type
+
+> For more information on Google load balancing, visit https://cloud.google.com/load-balancing/docs/load-balancing-overview#a_closer_look_at_cloud_load_balancers
+
+> Notes: Google Cloud supports two load balancer types, each of which offers different kinds of DDoS protection.
+
+
 
 ### 9.1 - Google Cloud Load Balancing Features
 
