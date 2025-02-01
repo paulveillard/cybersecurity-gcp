@@ -417,10 +417,13 @@ A route is a virtual networking component that allows you to implement more adva
 
 > For example, a route might specify that packets destined for a particular network range should be handled by a gateway VM instance that you configure and operate.
 
+- For a complete overview of Google Cloud routes, visit https://cloud.google.com/vpc/docs/routes
 
 References:
 - https://www.webagesolutions.com/blog/google-cloud-virtual-networking
 - https://tudip.com/blog-post/google-cloud-networking/
+
+### - 8.1 Route Categories (Types)
 
 
 ## `License`
