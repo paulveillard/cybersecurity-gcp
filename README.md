@@ -6,6 +6,7 @@ An ongoing & curated collection of awesome software best practices and technique
 
 
 ## `Table of Contents`
+- [Google Cloud Platform](#)
 - [GCP Landing Zone Best Practices](#)
 - [GCP — Cloud Security Best Practices for Enterprises](#)
   - [1 - Build your Resources and Structure into Resource Hierarchy](#)
@@ -18,7 +19,7 @@ An ongoing & curated collection of awesome software best practices and technique
 #  `GCP — Google Cloud Platform`
 
 <p align="center">
-  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/gcp-original.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/gcp-developer.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 
