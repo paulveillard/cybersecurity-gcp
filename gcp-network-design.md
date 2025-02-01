@@ -462,6 +462,16 @@ References:
   <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/private.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
+> Notes: In the above diagram (description is borrowed from https://cloud.google.com/vpc/docs/private-google-access#pga-supported):
+
+````
+The VPC network has been configured to meet the DNS, routing, and firewall network requirements for Google APIs and services. Private Google Access has been enabled on subnet-a, but not on subnet-b. 
+VM A1 can access Google APIs and services, including Cloud Storage, because its network interface is located in subnet-a, which has Private Google Access enabled. Private Google Access applies to the instance because it only has an internal IP address. 
+VM B1 cannot access Google APIs and services because it only has an internal IP address and Private Google Access is disabled for subnet-b.
+VM A2 and VM B2 can both access Google APIs and services, including Cloud Storage, because they each have external IP addresses. Private Google Access has no effect on whether or not these instances can access Google APIs and services because both have external IP addresses.
+````
+
+### - 8.4 
 
 ## `License`
 MIT License & [cc](https://creativecommons.org/licenses/by/4.0/) license
