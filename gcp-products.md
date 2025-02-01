@@ -4,6 +4,12 @@
 <sup>:link:-Product page</sup>
 <sup>:page_facing_up:-Documentation</sup>
 
+<p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/DarkPoster-medres.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
+
+
 ### Compute
 
 
