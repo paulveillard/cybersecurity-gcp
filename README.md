@@ -14,7 +14,13 @@ An ongoing & curated collection of awesome software best practices and technique
   - [4 - Securing your Applications and Data](#)
   - [5 - Deploy Logging, Monitoring and Operations](#)
   - [6 - Implement Billing and Management](#)
-- 
+
+#  `GCP — Google Cloud Platform`
+
+<p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/gcp-original.png?raw=true" alt="Sublime's custom image"/>
+</p>
+
 
 # `GCP — Cloud Security Best Practices for Enterprises`
 
