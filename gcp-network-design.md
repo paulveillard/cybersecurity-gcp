@@ -457,7 +457,10 @@ References:
  - Memorystore
 
 ### - 8.3 The Implementation of Private Google Access Diagram
-
+ 
+  <p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/private.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 
 ## `License`
