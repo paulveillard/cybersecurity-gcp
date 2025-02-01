@@ -500,9 +500,31 @@ Google Cloud provides a set of DDos protection mechanisms, depending on the load
 
 > Notes: Google Cloud supports two load balancer types, each of which offers different kinds of DDoS protection.
 
+#### Proxy-based external load balancers
 
+- All of the Google Cloud proxy-based external load balancers automatically inherit DDoS protection from Google Front Ends (GFEs), which are part of Google’s production infrastructure.
+
+In addition to the automatic DDoS protection provided by the GFEs, you can configure Google Cloud Armor for external HTTP(S) load balancers.
+
+ 
+
+#### Pass-through external load balancers
+
+- These load balancers are implemented using the same Google routing infrastructure used to implement external IP addresses for Compute Engine VMs. For inbound traffic to a network load balancer, Google Cloud limits incoming packets per VM.
 
 ### 9.1 - Google Cloud Load Balancing Features
+Google Cloud offers the following core load balancing features:
+
+Automatic autoscaling of your applications fronted by the load balancer
+External (Internet) and internal (VPC) load balancing of requests
+Pass-through load balancing (using the same Google routing infrastructure used to implement external IP addresses for Compute Engine VMs)
+Proxy-based load balancing (as an alternative to pass-through load balancing)
+Layer 7-based load balancing*
+Offers content-based routing based on such application request attributes as values in HTTP headers or URIs
+Layer 4-based load balancing*
+Directing traffic based on data at the transport layer (e.g. target IP addresses and TCP or UDP ports)
+Integration with Cloud CDN for cached content delivery (a way to bring the load balancer end-point closer to your customers)
+
 
 ## `10 - Summary`
 
