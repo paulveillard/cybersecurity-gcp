@@ -1,0 +1,38 @@
+# GCP Network Fundamentals: Things to know before starting with GCP Netwoking
+
+# Table of Contents
+- [1 - GCP Virtual Networking](#)
+- [2 - GCP Networking Services and Components at a Glance](#)
+- [3 - VPC Main Components](#)
+- [4 - Network Service Tiers](#)
+- [5 - A Virtual Private Cloud (VPC) Network](#)
+- [6 - Levels of Google Cloud Networking](#)
+  - [6.2.2 Network and Subnet Terminology](#)
+  - [6.2.3 CIDR Network Notation](#)
+  - [6.2.4 A Basic Cross-Region VPC Network](#)
+  - [6.2.5 Legacy Networks](#)
+  - [6.2.6 Listing Networks](#)
+  - [6.2.5 Projects and VPC Relationship](#)
+  - [6.2.6 VPC Specifications](#)
+  - [6.2.5 Types of VPC Networks](#)
+  - [6.2.6 VPC Specifications](#)
+- [7 - Firewalls](#)
+  - [7.5.1 Ingress (Inbound) Firewall Rules](#)
+  - [7.5.2 Egress (Outbound) Rules](#)
+  - [7.5.3 Authoring Firewall Rules](#)
+  - [7.5.4 Setting a Default Compute Zone with gcloud](#)
+  - [7.5.5 Protocol and Destination Port Specification Combinations](#)
+  - [7.5.6 GKE Firewall Rules](#)
+- [8 - Routes](#)
+- [Adding firewall rules](#)
+- [VPC Network Example:](#)
+
+## `1 - GCP Virtual Networking`
+- Networking services provide connectivity between cloud-based VMs, on-premises servers, and other cloud services. Google Cloud treats networking as a global feature that spans all its services.
+> GCP networking is based on Google’s Andromeda architecture, which allows cloud administrators to create and use software-defined networking elements, such as firewalls, routing tables, and VMs.
+
+## `2 - GCP Networking Services and Components at a Glance`
+
+<p align="center">
+  <img src="https://github.com/paulveillard/cybersecurity-gcp/blob/main/img/network-1.png?raw=true" alt="Sublime's custom image"/>
+</p>
