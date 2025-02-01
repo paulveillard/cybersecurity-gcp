@@ -6,7 +6,7 @@ An ongoing & curated collection of awesome software best practices and technique
 
 
 ## `Table of Contents`
-- [Google Cloud Platform](#)
+- [GCP - Google Cloud Platform](#)
 - [GCP Landing Zone Best Practices](#)
 - [GCP — Cloud Security Best Practices for Enterprises](#)
   - [1 - Build your Resources and Structure into Resource Hierarchy](#)
