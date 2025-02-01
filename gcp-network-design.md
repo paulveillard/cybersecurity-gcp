@@ -412,7 +412,10 @@ Google Kubernetes Engine creates firewall rules automatically when creating the 
 > For more information, see https://cloud.google.com/kubernetes-engine/docs/concepts/firewall-rules
 
 ## `8 - Routes`
+A route is a virtual networking component that allows you to implement more advanced networking functions for your instances, such as creating VPNs.
+- Routes define paths for packets leaving instances (egress traffic), in other words, a route controls how packets leaving an instance should be directed.
 
+> For example, a route might specify that packets destined for a particular network range should be handled by a gateway VM instance that you configure and operate.
 
 
 References:
